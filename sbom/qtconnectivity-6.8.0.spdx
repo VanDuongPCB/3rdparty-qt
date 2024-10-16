@@ -1,0 +1,1158 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtconnectivity-6.8.0
+DocumentNamespace: https://qt.io/spdxdocs/qtconnectivity-6.8.0
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.27.7, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2024-10-02T14:43:18Z
+ExternalDocumentRef: DocumentRef-qtbase https://qt.io/spdxdocs/qtbase-6.8.0 SHA1: 213493d87d45d3d7f458102ff31588b943cce995
+
+PackageName: MSVC
+SPDXID: SPDXRef-compiler
+PackageVersion: 19.39.33520.0
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSupplier: Organization: Anonymous
+FilesAnalyzed: false
+PackageSummary: <text>The compiler as identified by CMake, running on Windows (AMD64)</text>
+PrimaryPackagePurpose: APPLICATION
+Relationship: SPDXRef-compiler BUILD_DEPENDENCY_OF SPDXRef-Package-qtconnectivity
+RelationshipComment: <text>SPDXRef-Package-qtconnectivity is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0</text>
+
+PackageName: qtconnectivity
+SPDXID: SPDXRef-Package-qtconnectivity
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtconnectivity@6.8.0
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtconnectivity.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) 2024 The Qt Company Ltd.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)</text>
+PackageVerificationCode: cf99be26af06f269284815508be89a4a9013f6a1
+BuiltDate: 2024-10-02T14:43:18Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtconnectivity
+
+PackageName: Bluetooth
+SPDXID: SPDXRef-Package-qtconnectivity-qt-module-Bluetooth
+PackageDownloadLocation: git://code.qt.io/qt/qtconnectivity.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtconnectivity?library_name=Bluetooth#src/bluetooth
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtconnectivity-Bluetooth?vcs_url=https://code.qt.io/qt/qtconnectivity.git&library_name=Bluetooth#src/bluetooth
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtconnectivity:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Bluetooth DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Bluetooth DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Bluetooth DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtconnectivity CONTAINS SPDXRef-Package-qtconnectivity-qt-module-Bluetooth
+
+FileName: ./bin/Qt6Bluetooth.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: e42ad0c355f593ea972c9ee299ce22f8e238e181
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Bluetooth CONTAINS SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/RelWithDebInfo/Bluetooth_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/include/QtBluetooth/qtbluetoothexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/lecmaccalculator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetooth.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetooth.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothaddress.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocketbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocketbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothuuid.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothuuid.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristic.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristic.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontrollerbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontrollerbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptor.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptor.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptordata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptordata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservice.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservice.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservicedata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservicedata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyserviceprivate.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyserviceprivate_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qprivatelinearbuffer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qtbluetoothglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qtbluetoothglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/qtbluetooth-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/qtbluetooth-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/meta_types/qt6bluetooth_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothutils_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothutils_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicewatcher_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicewatcher_winrt_p.h
+
+FileName: ./bin/Qt6Bluetoothd.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug
+FileType: BINARY
+FileChecksum: SHA1: 552a9cef2f915bf69e1b29a7b180d72e394328b1
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Bluetooth CONTAINS SPDXRef-PackagedFile-qt-module-Bluetooth-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/Debug/Bluetooth_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/include/QtBluetooth/qtbluetoothexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/lecmaccalculator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetooth.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetooth.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothaddress.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocketbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocketbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothuuid.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothuuid.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristic.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristic.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontrollerbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontrollerbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptor.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptor.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptordata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptordata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservice.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservice.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservicedata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservicedata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyserviceprivate.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyserviceprivate_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qprivatelinearbuffer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qtbluetoothglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qtbluetoothglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/qtbluetooth-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/qtbluetooth-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/meta_types/qt6bluetooth_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothutils_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothutils_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicewatcher_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicewatcher_winrt_p.h
+
+FileName: ./lib/Qt6Bluetooth.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: b856162a7230552bdcbf4490341efdc3830fca35
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Bluetooth CONTAINS SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/RelWithDebInfo/Bluetooth_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/include/QtBluetooth/qtbluetoothexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/lecmaccalculator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetooth.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetooth.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothaddress.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocketbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocketbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothuuid.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothuuid.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristic.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristic.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontrollerbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontrollerbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptor.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptor.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptordata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptordata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservice.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservice.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservicedata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservicedata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyserviceprivate.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyserviceprivate_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qprivatelinearbuffer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qtbluetoothglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qtbluetoothglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/qtbluetooth-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/qtbluetooth-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/meta_types/qt6bluetooth_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothutils_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothutils_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicewatcher_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicewatcher_winrt_p.h
+
+FileName: ./lib/Qt6Bluetoothd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug
+FileType: BINARY
+FileChecksum: SHA1: 05132dd075d3e00e4ea9a537482eaf6b4c6dfcec
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Bluetooth CONTAINS SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/Debug/Bluetooth_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/include/QtBluetooth/qtbluetoothexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/lecmaccalculator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetooth.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetooth.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothaddress.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdeviceinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothhostinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocketbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocketbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothuuid.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothuuid.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingdata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyadvertisingparameters.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristic.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristic.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycharacteristicdata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyconnectionparameters.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontrollerbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontrollerbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptor.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptor.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptordata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergydescriptordata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservice.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservice.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservicedata.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyservicedata.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyserviceprivate.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergyserviceprivate_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qprivatelinearbuffer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qtbluetoothglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qtbluetoothglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/qtbluetooth-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/qtbluetooth-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/C:/Users/qt/work/qt/qtconnectivity_build/src/bluetooth/meta_types/qt6bluetooth_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicediscoveryagent_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothlocaldevice_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserver_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothservicediscoveryagent_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothserviceinfo_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothsocket_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothutils_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothutils_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qlowenergycontroller_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicewatcher_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Bluetooth-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/bluetooth/qbluetoothdevicewatcher_winrt_p.h
+
+PackageName: Nfc
+SPDXID: SPDXRef-Package-qtconnectivity-qt-module-Nfc
+PackageDownloadLocation: git://code.qt.io/qt/qtconnectivity.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtconnectivity?library_name=Nfc#src/nfc
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtconnectivity-Nfc?vcs_url=https://code.qt.io/qt/qtconnectivity.git&library_name=Nfc#src/nfc
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtconnectivity:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Nfc DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Nfc DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Nfc DEPENDS_ON SPDXRef-Package-qtconnectivity-system-3rdparty-PCSCLITE
+Relationship: SPDXRef-Package-qtconnectivity CONTAINS SPDXRef-Package-qtconnectivity-qt-module-Nfc
+
+FileName: ./bin/Qt6Nfc.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 0d87e57c07c0a402ac5dcad80a465f017aa25f4a
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Nfc CONTAINS SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/RelWithDebInfo/Nfc_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/include/QtNfc/qtnfcexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndeffilter.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndeffilter.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefmessage.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefmessage.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfctextrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfctextrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcurirecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcurirecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_p.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qtnfcglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qtnfcglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/qtnfc-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/qtnfc-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/meta_types/qt6nfc_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_pcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_pcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_pcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_pcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qapduutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qapduutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscmanager.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscmanager_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscslot.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscslot_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsccard.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsccard_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qndefaccessfsm_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qnfctagtype4ndeffsm.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qnfctagtype4ndeffsm_p.h
+
+FileName: ./bin/Qt6Nfcd.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-Nfc-Debug
+FileType: BINARY
+FileChecksum: SHA1: f6c763f444406339fbdac9986a937a5d20b34b8f
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Nfc CONTAINS SPDXRef-PackagedFile-qt-module-Nfc-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/Debug/Nfc_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/include/QtNfc/qtnfcexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndeffilter.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndeffilter.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefmessage.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefmessage.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfctextrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfctextrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcurirecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcurirecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_p.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qtnfcglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qtnfcglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/qtnfc-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/qtnfc-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/meta_types/qt6nfc_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_pcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_pcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_pcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_pcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qapduutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qapduutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscmanager.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscmanager_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscslot.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscslot_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsccard.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsccard_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qndefaccessfsm_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qnfctagtype4ndeffsm.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qnfctagtype4ndeffsm_p.h
+
+FileName: ./lib/Qt6Nfc.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 3fc8e93bc50fb4323c2f4b3f43666f853fe762ac
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Nfc CONTAINS SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/RelWithDebInfo/Nfc_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/include/QtNfc/qtnfcexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndeffilter.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndeffilter.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefmessage.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefmessage.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfctextrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfctextrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcurirecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcurirecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_p.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qtnfcglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qtnfcglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/qtnfc-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/qtnfc-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/meta_types/qt6nfc_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_pcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_pcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_pcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_pcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qapduutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qapduutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscmanager.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscmanager_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscslot.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscslot_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsccard.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsccard_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qndefaccessfsm_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qnfctagtype4ndeffsm.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qnfctagtype4ndeffsm_p.h
+
+FileName: ./lib/Qt6Nfcd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug
+FileType: BINARY
+FileChecksum: SHA1: 68f3afc445e5efc11fe04ee1f685385f645d21d9
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtconnectivity-qt-module-Nfc CONTAINS SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/Debug/Nfc_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/include/QtNfc/qtnfcexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndeffilter.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndeffilter.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefmessage.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefmessage.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcsmartposterrecord_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfctextrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfctextrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcurirecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefnfcurirecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qndefrecord_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_p.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qtnfcglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qtnfcglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/qtnfc-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/qtnfc-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/C:/Users/qt/work/qt/qtconnectivity_build/src/nfc/meta_types/qt6nfc_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_pcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldmanager_pcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_pcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qnearfieldtarget_pcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qapduutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/qapduutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscmanager.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscmanager_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscslot.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcscslot_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsccard.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/pcsc/qpcsccard_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qndefaccessfsm_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qnfctagtype4ndeffsm.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Nfc-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtconnectivity/src/nfc/ndef/qnfctagtype4ndeffsm_p.h
+
+PackageName: PCSCLITE
+SPDXID: SPDXRef-Package-qtconnectivity-system-3rdparty-PCSCLITE
+PackageDownloadLocation: NOASSERTION
+PackageVersion: unknown
+PackageSupplier: Person: Anonymous
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+FilesAnalyzed: true
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: LIBRARY
+Relationship: SPDXRef-Package-qtconnectivity CONTAINS SPDXRef-Package-qtconnectivity-system-3rdparty-PCSCLITE
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

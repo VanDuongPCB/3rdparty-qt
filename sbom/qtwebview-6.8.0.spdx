@@ -1,0 +1,511 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtwebview-6.8.0
+DocumentNamespace: https://qt.io/spdxdocs/qtwebview-6.8.0
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.27.7, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2024-10-02T20:21:27Z
+ExternalDocumentRef: DocumentRef-qtbase https://qt.io/spdxdocs/qtbase-6.8.0 SHA1: 213493d87d45d3d7f458102ff31588b943cce995;
+ExternalDocumentRef: DocumentRef-qtwebengine https://qt.io/spdxdocs/qtwebengine-6.8.0 SHA1: be9b3f3a646b2efa53e65360d553da7aca70f519;
+ExternalDocumentRef: DocumentRef-qtdeclarative https://qt.io/spdxdocs/qtdeclarative-6.8.0 SHA1: 46a6b0a462a24d68afa0ef592174bef8ccf3fc68
+
+PackageName: MSVC
+SPDXID: SPDXRef-compiler
+PackageVersion: 19.39.33520.0
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSupplier: Organization: Anonymous
+FilesAnalyzed: false
+PackageSummary: <text>The compiler as identified by CMake, running on Windows (AMD64)</text>
+PrimaryPackagePurpose: APPLICATION
+Relationship: SPDXRef-compiler BUILD_DEPENDENCY_OF SPDXRef-Package-qtwebview
+RelationshipComment: <text>SPDXRef-Package-qtwebview is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0</text>
+
+PackageName: qtwebview
+SPDXID: SPDXRef-Package-qtwebview
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtwebview@6.8.0
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtwebview.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) 2024 The Qt Company Ltd.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)</text>
+PackageVerificationCode: 68c9fed2c4aedbfc6e18dde86ec46feaed0c3f4c
+BuiltDate: 2024-10-02T20:21:27Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtwebview
+
+PackageName: WebView
+SPDXID: SPDXRef-Package-qtwebview-qt-module-WebView
+PackageDownloadLocation: git://code.qt.io/qt/qtwebview.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtwebview?library_name=WebView#src/webview
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtwebview-WebView?vcs_url=https://code.qt.io/qt/qtwebview.git&library_name=WebView#src/webview
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtwebview:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebView DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebView DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebView DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebView DEPENDS_ON DocumentRef-qtwebengine:SPDXRef-Package-qtwebengine-qt-module-WebEngineQuick
+Relationship: SPDXRef-Package-qtwebview CONTAINS SPDXRef-Package-qtwebview-qt-module-WebView
+
+FileName: ./bin/Qt6WebView.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 56d82c83965dc34076587920355c06e3aab564ac
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebView CONTAINS SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/RelWithDebInfo/WebView_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qabstractwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qnativeviewcontroller_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_global.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewinterface_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/meta_types/qt6webview_metatypes.json.gen
+
+FileName: ./bin/Qt6WebViewd.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-WebView-Debug
+FileType: BINARY
+FileChecksum: SHA1: 06a06738d49685202eb363e273165cdd27d24237
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebView CONTAINS SPDXRef-PackagedFile-qt-module-WebView-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/Debug/WebView_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qabstractwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qnativeviewcontroller_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_global.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewinterface_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/meta_types/qt6webview_metatypes.json.gen
+
+FileName: ./lib/Qt6WebView.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: a4149386ca9f3240070cbfa918fc35fb70e532c2
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebView CONTAINS SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/RelWithDebInfo/WebView_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qabstractwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qnativeviewcontroller_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_global.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewinterface_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/meta_types/qt6webview_metatypes.json.gen
+
+FileName: ./lib/Qt6WebViewd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug
+FileType: BINARY
+FileChecksum: SHA1: 178187e018c178169ec09d1b2769c1c97d98e516
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebView CONTAINS SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/Debug/WebView_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qabstractwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qnativeviewcontroller_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_global.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewinterface_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/meta_types/qt6webview_metatypes.json.gen
+
+PackageName: WebViewQuick
+SPDXID: SPDXRef-Package-qtwebview-qt-module-WebViewQuick
+PackageDownloadLocation: git://code.qt.io/qt/qtwebview.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtwebview?library_name=WebViewQuick#src/quick
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtwebview-WebViewQuick?vcs_url=https://code.qt.io/qt/qtwebview.git&library_name=WebViewQuick#src/quick
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtwebview:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebViewQuick DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Quick
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebViewQuick DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebViewQuick DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-QmlModels
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebViewQuick DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-OpenGL
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebViewQuick DEPENDS_ON SPDXRef-Package-qtwebview-qt-module-WebView
+Relationship: SPDXRef-Package-qtwebview CONTAINS SPDXRef-Package-qtwebview-qt-module-WebViewQuick
+
+FileName: ./bin/Qt6WebViewQuick.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: cfa90a595c96916c9a621ef3aa98a4d5062da0eb
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebViewQuick CONTAINS SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/RelWithDebInfo/WebViewQuick_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/include/QtWebViewQuick/qtwebviewquickexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qtwebviewquickglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/meta_types/qt6webviewquick_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/webviewquick_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/.qt/rcc/qrc_qmake_QtWebView.cpp
+
+FileName: ./bin/Qt6WebViewQuickd.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug
+FileType: BINARY
+FileChecksum: SHA1: 37f25d444a35c421319dfd4cba03f7ec94a9ce64
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebViewQuick CONTAINS SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/Debug/WebViewQuick_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/include/QtWebViewQuick/qtwebviewquickexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qtwebviewquickglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/meta_types/qt6webviewquick_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/webviewquick_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/.qt/rcc/qrc_qmake_QtWebView.cpp
+
+FileName: ./lib/Qt6WebViewQuick.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 7bcb60f6c91fc351bd6ec6053838fe61303e3a51
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebViewQuick CONTAINS SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/RelWithDebInfo/WebViewQuick_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/include/QtWebViewQuick/qtwebviewquickexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qtwebviewquickglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/meta_types/qt6webviewquick_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/webviewquick_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/.qt/rcc/qrc_qmake_QtWebView.cpp
+
+FileName: ./lib/Qt6WebViewQuickd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug
+FileType: BINARY
+FileChecksum: SHA1: 7325ae3c830bbbe7f0c502ef9ec66f4a9f170a14
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-module-WebViewQuick CONTAINS SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/Debug/WebViewQuick_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/include/QtWebViewQuick/qtwebviewquickexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qtwebviewquickglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/meta_types/qt6webviewquick_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/webviewquick_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/.qt/rcc/qrc_qmake_QtWebView.cpp
+
+PackageName: qtwebviewquickplugin
+SPDXID: SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin
+PackageDownloadLocation: git://code.qt.io/qt/qtwebview.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtwebview?library_name=qtwebviewquickplugin#src/quick
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtwebview-qtwebviewquickplugin?vcs_url=https://code.qt.io/qt/qtwebview.git&library_name=qtwebviewquickplugin#src/quick
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtwebview:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal
+Relationship: SPDXRef-Package-qtwebview CONTAINS SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin
+
+FileName: ./qml/QtWebView/qtwebviewquickplugin.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: ca67d17bd2494caff053c741b51094ef1799702f
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin CONTAINS SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/qtwebviewquickplugin_QWebViewQuickPlugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/RelWithDebInfo/qtwebviewquickplugin_resource.rc
+
+FileName: ./qml/QtWebView/qtwebviewquickplugind.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-Debug
+FileType: BINARY
+FileChecksum: SHA1: 4c61aec0363b1c35bec4494f6eb5e5cea0b7916a
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin CONTAINS SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-Debug
+Relationship: SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/qtwebviewquickplugin_QWebViewQuickPlugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/Debug/qtwebviewquickplugin_resource.rc
+
+PackageName: QWebEngineWebViewPlugin
+SPDXID: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin
+PackageDownloadLocation: git://code.qt.io/qt/qtwebview.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtwebview?library_name=QWebEngineWebViewPlugin#src/plugins/webengine
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtwebview-QWebEngineWebViewPlugin?vcs_url=https://code.qt.io/qt/qtwebview.git&library_name=QWebEngineWebViewPlugin#src/plugins/webengine
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtwebview:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin DEPENDS_ON DocumentRef-qtwebengine:SPDXRef-Package-qtwebengine-qt-module-WebEngineCore
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin DEPENDS_ON DocumentRef-qtwebengine:SPDXRef-Package-qtwebengine-qt-module-WebEngineQuick
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin DEPENDS_ON SPDXRef-Package-qtwebview-qt-module-WebView
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin DEPENDS_ON SPDXRef-Package-qtwebview-qt-module-WebViewQuick
+Relationship: SPDXRef-Package-qtwebview CONTAINS SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin
+
+FileName: ./plugins/webview/qtwebview_webengine.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 15c37199715b70b66be728f48e2824e91011a10d
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebviewplugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/C:/Users/qt/work/qt/qtwebview_build/src/plugins/webengine/meta_types/qt6qwebenginewebviewplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/C:/Users/qt/work/qt/qtwebview_build/src/plugins/webengine/RelWithDebInfo/QWebEngineWebViewPlugin_resource.rc
+
+FileName: ./plugins/webview/qtwebview_webengined.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug
+FileType: BINARY
+FileChecksum: SHA1: 5dc012c7e53700aa99f571015e5fb871fdff69bc
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebview.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebview_p.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebviewplugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/C:/Users/qt/work/qt/qtwebview_build/src/plugins/webengine/meta_types/qt6qwebenginewebviewplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/C:/Users/qt/work/qt/qtwebview_build/src/plugins/webengine/Debug/QWebEngineWebViewPlugin_resource.rc
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

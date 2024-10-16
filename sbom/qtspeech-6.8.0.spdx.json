@@ -1,0 +1,1424 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T17:35:29Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtmultimedia",
+            "spdxDocument": "https://qt.io/spdxdocs/qtmultimedia-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "118c90fb4df54c65eb1aef5fcd0b8adff1efc90a"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtspeech-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtspeech-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtspeech",
+            "builtDate": "2024-10-02T17:35:29Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtspeech.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtspeech@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtspeech",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "51214c0a33f891cc2c23cb62506f6d99077136c2"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtspeech.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtspeech?library_name=TextToSpeechQml#src/tts/qml",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtspeech-TextToSpeechQml?vcs_url=https://code.qt.io/qt/qtspeech.git&library_name=TextToSpeechQml#src/tts/qml",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtspeech:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "TextToSpeechQml",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtspeech.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtspeech?library_name=TextToSpeech#src/tts",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtspeech-TextToSpeech?vcs_url=https://code.qt.io/qt/qtspeech.git&library_name=TextToSpeech#src/tts",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtspeech:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "TextToSpeech",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtspeech.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtspeech?library_name=QTextToSpeechMockPlugin#src/plugins/tts/mock",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtspeech-QTextToSpeechMockPlugin?vcs_url=https://code.qt.io/qt/qtspeech.git&library_name=QTextToSpeechMockPlugin#src/plugins/tts/mock",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtspeech:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QTextToSpeechMockPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSapiPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtspeech.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtspeech?library_name=QTextToSpeechSapiPlugin#src/plugins/tts/sapi",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtspeech-QTextToSpeechSapiPlugin?vcs_url=https://code.qt.io/qt/qtspeech.git&library_name=QTextToSpeechSapiPlugin#src/plugins/tts/sapi",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtspeech:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QTextToSpeechSapiPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtspeech.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtspeech?library_name=QTextToSpeechWinRTPlugin#src/plugins/tts/winrt",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtspeech-QTextToSpeechWinRTPlugin?vcs_url=https://code.qt.io/qt/qtspeech.git&library_name=QTextToSpeechWinRTPlugin#src/plugins/tts/winrt",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtspeech:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QTextToSpeechWinRTPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e6aa86b5ff49fbb08a975df3aa77504311400af8"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtTextToSpeech/texttospeechqmlplugin.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "de03eedbca309e494fbfa6656e46df38e0ee85ff"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtTextToSpeech/texttospeechqmlplugind.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "49ac77dbdfb69c84f6b675f6b32c6776eed5aef3"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6TextToSpeech.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "dd51c67f0fac40f72d664472147956cb974d6172"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6TextToSpeechd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "57d488cb188fcb67672076827c700f9fd484f77a"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6TextToSpeech.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "280bb9d2503848c74e52c1d2727c6e29c209c3bf"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6TextToSpeechd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "29ec4c66d700115a772afaf7399b7459d9509fcc"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/texttospeech/qtexttospeech_mock.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9b048038b2dd2e4cedce0352d1a14c72d4728ffc"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/texttospeech/qtexttospeech_mockd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "52e9e00b0b80ad6d87a6b7b3d048b8d55f1bea10"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/texttospeech/qtexttospeech_sapi.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e95e81fde848605db7b5002989aabd9e484332f3"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/texttospeech/qtexttospeech_sapid.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2cef8240b43f64a168aae631559402d378ecb42c"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/texttospeech/qtexttospeech_winrt.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "df08c6fa5c2721c7c5b9df91e41a1f823f5937ec"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/texttospeech/qtexttospeech_winrtd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtspeech is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qtexttospeech_qmltypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qdeclarativetexttospeech.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qdeclarativetexttospeech_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qvoiceselectorattached.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qvoiceselectorattached_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/meta_types/qt6texttospeechqml_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/texttospeechqml_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/.qt/rcc/qrc_qmake_QtTextToSpeech.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/TextToSpeechQml_QtTextToSpeechPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/RelWithDebInfo/TextToSpeechQml_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qtexttospeech_qmltypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qdeclarativetexttospeech.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qdeclarativetexttospeech_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qvoiceselectorattached.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/qvoiceselectorattached_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/meta_types/qt6texttospeechqml_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/texttospeechqml_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/.qt/rcc/qrc_qmake_QtTextToSpeech.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/TextToSpeechQml_QtTextToSpeechPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TextToSpeechQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qml/C:/Users/qt/work/qt/qtspeech_build/src/tts/qml/Debug/TextToSpeechQml_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "DocumentRef-qtmultimedia:SPDXRef-Package-qtmultimedia-qt-module-Multimedia",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/RelWithDebInfo/TextToSpeech_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechengine.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechengine.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechplugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/qttexttospeech-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/qttexttospeech-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/meta_types/qt6texttospeech_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/Debug/TextToSpeech_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechengine.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechengine.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechplugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/qttexttospeech-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/qttexttospeech-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/meta_types/qt6texttospeech_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/RelWithDebInfo/TextToSpeech_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechengine.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechengine.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechplugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/qttexttospeech-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/qttexttospeech-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/meta_types/qt6texttospeech_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/Debug/TextToSpeech_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeech_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechengine.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechengine.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qtexttospeechplugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/qvoice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/qttexttospeech-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/qttexttospeech-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-TextToSpeech-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/tts/C:/Users/qt/work/qt/qtspeech_build/src/tts/meta_types/qt6texttospeech_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/qtexttospeech_mock.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/qtexttospeech_mock.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/qtexttospeech_mock_plugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/qtexttospeech_mock_plugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/mock/meta_types/qt6qtexttospeechmockplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/mock/RelWithDebInfo/QTextToSpeechMockPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/qtexttospeech_mock.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/qtexttospeech_mock.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/qtexttospeech_mock_plugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/qtexttospeech_mock_plugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/mock/meta_types/qt6qtexttospeechmockplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechMockPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/mock/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/mock/Debug/QTextToSpeechMockPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSapiPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSapiPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSapiPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSapiPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSapiPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSapiPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/qtexttospeech_sapi.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/qtexttospeech_sapi.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/qtexttospeech_sapi_plugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/qtexttospeech_sapi_plugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/sapi/meta_types/qt6qtexttospeechsapiplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/sapi/RelWithDebInfo/QTextToSpeechSapiPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSapiPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSapiPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/qtexttospeech_sapi.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/qtexttospeech_sapi.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/qtexttospeech_sapi_plugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/qtexttospeech_sapi_plugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/sapi/meta_types/qt6qtexttospeechsapiplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechSapiPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/sapi/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/sapi/Debug/QTextToSpeechSapiPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "relatedSpdxElement": "DocumentRef-qtmultimedia:SPDXRef-Package-qtmultimedia-qt-module-Multimedia",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech",
+            "relatedSpdxElement": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt_audiosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt_audiosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt_plugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt_plugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/winrt/meta_types/qt6qtexttospeechwinrtplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/winrt/RelWithDebInfo/QTextToSpeechWinRTPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt_audiosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt_audiosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt_plugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/qtexttospeech_winrt_plugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/winrt/meta_types/qt6qtexttospeechwinrtplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QTextToSpeechWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtspeech/src/plugins/tts/winrt/C:/Users/qt/work/qt/qtspeech_build/src/plugins/tts/winrt/Debug/QTextToSpeechWinRTPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

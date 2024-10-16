@@ -1,0 +1,241 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtlanguageserver-6.8.0
+DocumentNamespace: https://qt.io/spdxdocs/qtlanguageserver-6.8.0
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.27.7, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2024-10-02T08:42:16Z
+ExternalDocumentRef: DocumentRef-qtbase https://qt.io/spdxdocs/qtbase-6.8.0 SHA1: 213493d87d45d3d7f458102ff31588b943cce995
+
+PackageName: MSVC
+SPDXID: SPDXRef-compiler
+PackageVersion: 19.39.33520.0
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSupplier: Organization: Anonymous
+FilesAnalyzed: false
+PackageSummary: <text>The compiler as identified by CMake, running on Windows (AMD64)</text>
+PrimaryPackagePurpose: APPLICATION
+Relationship: SPDXRef-compiler BUILD_DEPENDENCY_OF SPDXRef-Package-qtlanguageserver
+RelationshipComment: <text>SPDXRef-Package-qtlanguageserver is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0</text>
+
+PackageName: qtlanguageserver
+SPDXID: SPDXRef-Package-qtlanguageserver
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlanguageserver@6.8.0
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtlanguageserver.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) 2024 The Qt Company Ltd.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)</text>
+PackageVerificationCode: 0b8d5a18c754e5f22e288c0f7082b2004a8b197a
+BuiltDate: 2024-10-02T08:42:16Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtlanguageserver
+
+PackageName: JsonRpcPrivate
+SPDXID: SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate
+PackageDownloadLocation: git://code.qt.io/qt/qtlanguageserver.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtlanguageserver?library_name=JsonRpcPrivate#src/jsonrpc
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlanguageserver-JsonRpcPrivate?vcs_url=https://code.qt.io/qt/qtlanguageserver.git&library_name=JsonRpcPrivate#src/jsonrpc
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtlanguageserver:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtlanguageserver CONTAINS SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate
+
+FileName: ./lib/Qt6JsonRpc.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 2f99ae1db7123bdb9b7340bb50fd3bd475111fa1
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate CONTAINS SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpctransport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtjsonrpcglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsontypedrpc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsontypedrpc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtypedjson_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtypedjson.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/C:/Users/qt/work/qt/qtlanguageserver_build/src/jsonrpc/meta_types/qt6jsonrpcprivate_metatypes.json.gen
+
+FileName: ./lib/Qt6JsonRpcd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug
+FileType: BINARY
+FileChecksum: SHA1: d1a68312000415d46aad8e281954f0fcc6eaed9d
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate CONTAINS SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpctransport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtjsonrpcglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsontypedrpc_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsontypedrpc.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtypedjson_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtypedjson.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/C:/Users/qt/work/qt/qtlanguageserver_build/src/jsonrpc/meta_types/qt6jsonrpcprivate_metatypes.json.gen
+
+PackageName: LanguageServerPrivate
+SPDXID: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate
+PackageDownloadLocation: git://code.qt.io/qt/qtlanguageserver.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtlanguageserver?library_name=LanguageServerPrivate#src/languageserver
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlanguageserver-LanguageServerPrivate?vcs_url=https://code.qt.io/qt/qtlanguageserver.git&library_name=LanguageServerPrivate#src/languageserver
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtlanguageserver:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate DEPENDS_ON SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate
+Relationship: SPDXRef-Package-qtlanguageserver CONTAINS SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate
+
+FileName: ./lib/Qt6LanguageServer.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: a8f12e4d426c5de5fb245203c3eb39395fec0268
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate CONTAINS SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprespectypes_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverspec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverspectypes_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qtlanguageserverglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprotocol_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprotocol.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlspnotifysignals_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlspnotifysignals.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/C:/Users/qt/work/qt/qtlanguageserver_build/src/languageserver/meta_types/qt6languageserverprivate_metatypes.json.gen
+
+FileName: ./lib/Qt6LanguageServerd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug
+FileType: BINARY
+FileChecksum: SHA1: e2bfc0e1cfb78678ef0ca69189ac443485d16d59
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate CONTAINS SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprespectypes_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverspec_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverspectypes_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qtlanguageserverglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprotocol_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprotocol.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlspnotifysignals_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlspnotifysignals.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/C:/Users/qt/work/qt/qtlanguageserver_build/src/languageserver/meta_types/qt6languageserverprivate_metatypes.json.gen
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

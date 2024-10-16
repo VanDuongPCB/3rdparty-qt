@@ -1,0 +1,3206 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T08:55:40Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtserialport",
+            "spdxDocument": "https://qt.io/spdxdocs/qtserialport-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "881cf44079b434662abd073140baccd9b021628a"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtserialbus-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtserialbus-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtserialbus",
+            "builtDate": "2024-10-02T08:55:40Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtserialbus.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtserialbus@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtserialbus",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "d0aa991ff5f929b7c1988d85c54701fd40e85ebd"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtserialbus.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtserialbus?library_name=SerialBus#src/serialbus",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtserialbus-SerialBus?vcs_url=https://code.qt.io/qt/qtserialbus.git&library_name=SerialBus#src/serialbus",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtserialbus:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "SerialBus",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtserialbus.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtserialbus?library_name=VirtualCanBusPlugin#src/plugins/canbus/virtualcan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtserialbus-VirtualCanBusPlugin?vcs_url=https://code.qt.io/qt/qtserialbus.git&library_name=VirtualCanBusPlugin#src/plugins/canbus/virtualcan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtserialbus:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "VirtualCanBusPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtserialbus-qt-plugin-PassThruCanBusPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtserialbus.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtserialbus?library_name=PassThruCanBusPlugin#src/plugins/canbus/passthrucan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtserialbus-PassThruCanBusPlugin?vcs_url=https://code.qt.io/qt/qtserialbus.git&library_name=PassThruCanBusPlugin#src/plugins/canbus/passthrucan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtserialbus:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "PassThruCanBusPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtserialbus.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtserialbus?library_name=PeakCanBusPlugin#src/plugins/canbus/peakcan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtserialbus-PeakCanBusPlugin?vcs_url=https://code.qt.io/qt/qtserialbus.git&library_name=PeakCanBusPlugin#src/plugins/canbus/peakcan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtserialbus:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "PeakCanBusPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtserialbus.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtserialbus?library_name=TinyCanBusPlugin#src/plugins/canbus/tinycan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtserialbus-TinyCanBusPlugin?vcs_url=https://code.qt.io/qt/qtserialbus.git&library_name=TinyCanBusPlugin#src/plugins/canbus/tinycan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtserialbus:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "TinyCanBusPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtserialbus.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtserialbus?library_name=SystecCanBusPlugin#src/plugins/canbus/systeccan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtserialbus-SystecCanBusPlugin?vcs_url=https://code.qt.io/qt/qtserialbus.git&library_name=SystecCanBusPlugin#src/plugins/canbus/systeccan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtserialbus:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "SystecCanBusPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtserialbus.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtserialbus?library_name=VectorCanBusPlugin#src/plugins/canbus/vectorcan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtserialbus-VectorCanBusPlugin?vcs_url=https://code.qt.io/qt/qtserialbus.git&library_name=VectorCanBusPlugin#src/plugins/canbus/vectorcan",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtserialbus:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "VectorCanBusPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtserialbus-qt-app-canbusutil",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtserialbus.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtserialbus?library_name=canbusutil#src/tools/canbusutil",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtserialbus-canbusutil?vcs_url=https://code.qt.io/qt/qtserialbus.git&library_name=canbusutil#src/tools/canbusutil",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtserialbus:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "name": "canbusutil",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "586d6f7e1c5faddc8f8cf0bf85f2cbb81ac430cb"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6SerialBus.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "20634db6912ecb54ed153ed7bf78b577a1cc238d"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6SerialBusd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e992c73c12525f8e132297218ff4defe2529fe27"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6SerialBus.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a19da226d03c5fcbd147c99479360746adfc1738"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6SerialBusd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "04ba1476eaa0fbd91fff3eb08d9bd3b0f2893758"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtvirtualcanbus.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "f1ff3ab17cab81346b599aba292b7977041b7a2a"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtvirtualcanbusd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "8d5da495af3ba49dc285a63ebcb82c9723871922"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtpassthrucanbus.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ed532409cf701701b9b9e471f109ba34dda45d7d"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtpassthrucanbusd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c1055fb12863bc76a8af0b7c9354d456205f46d5"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtpeakcanbus.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "f5f58c3f6313d4502927cd3f385e64ae4f8ba85c"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtpeakcanbusd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4be2544fc099b4688e06bda13804aee274916bd3"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qttinycanbus.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "962cb01ecaca7ab6205ec2ceb62afedde9b3460f"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qttinycanbusd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "5f663220bfbdf781076bd678d8b46771bd153965"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtsysteccanbus.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1cf57e06940ed5d01d43eae74a66196a1e2873e5"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtsysteccanbusd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1a14fd53ab2d28a7be26f5030e01ba00474493ad"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtvectorcanbus.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "95bbeb746cc341bfc5579d9ec27140f9919dfd3e"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/canbus/qtvectorcanbusd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "362d88d374c32dfeee90b344aea761af542048a1"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/canbusutil.exe",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtserialbus is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "DocumentRef-qtserialport:SPDXRef-Package-qtserialport-qt-module-SerialPort",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/RelWithDebInfo/SerialBus_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/include/QtSerialBus/qtserialbusexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbus.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbus.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusfactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusframe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusframe.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcancommondefinitions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcancommondefinitions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbus_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusadu_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuscommevent_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdataunit.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdataunit.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdeviceidentification.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdeviceidentification.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuspdu.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuspdu.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusreply.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusreply.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qtserialbusglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/qtserialbus-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/qtserialbus-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/meta_types/qt6serialbus_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/Debug/SerialBus_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/include/QtSerialBus/qtserialbusexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbus.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbus.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusfactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusframe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusframe.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcancommondefinitions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcancommondefinitions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbus_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusadu_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuscommevent_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdataunit.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdataunit.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdeviceidentification.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdeviceidentification.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuspdu.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuspdu.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusreply.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusreply.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qtserialbusglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/qtserialbus-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/qtserialbus-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/meta_types/qt6serialbus_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/RelWithDebInfo/SerialBus_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/include/QtSerialBus/qtserialbusexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbus.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbus.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusfactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusframe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusframe.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcancommondefinitions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcancommondefinitions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbus_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusadu_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuscommevent_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdataunit.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdataunit.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdeviceidentification.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdeviceidentification.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuspdu.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuspdu.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusreply.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusreply.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qtserialbusglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/qtserialbus-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/qtserialbus-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/meta_types/qt6serialbus_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/Debug/SerialBus_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/include/QtSerialBus/qtserialbusexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbus.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbus.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdevice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusdeviceinfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusfactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusframe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanbusframe.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcancommondefinitions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcancommondefinitions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcandbcfileparser_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanframeprocessor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanmessagedescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcansignaldescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qcanuniqueiddescription_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbus_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusadu_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuscommevent_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdataunit.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdataunit.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdevice_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdeviceidentification.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusdeviceidentification.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuspdu.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbuspdu.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusreply.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusreply.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbustcpserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qtserialbusglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/qtserialbus-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/qtserialbus-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/C:/Users/qt/work/qt/qtserialbus_build/src/serialbus/meta_types/qt6serialbus_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialclient_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SerialBus-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/serialbus/qmodbusrtuserialserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/virtualcanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/virtualcanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/virtualcan/meta_types/qt6virtualcanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/virtualcan/RelWithDebInfo/VirtualCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VirtualCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/virtualcanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/virtualcanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/virtualcan/meta_types/qt6virtualcanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VirtualCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/virtualcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/virtualcan/Debug/VirtualCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PassThruCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PassThruCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PassThruCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-plugin-PassThruCanBusPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PassThruCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PassThruCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/j2534passthru.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/j2534passthru.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/passthrucanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/passthrucanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/passthrucanio.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/passthrucanio.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/passthrucan/meta_types/qt6passthrucanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/passthrucan/RelWithDebInfo/PassThruCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PassThruCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PassThruCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/j2534passthru.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/j2534passthru.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/passthrucanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/passthrucanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/passthrucanio.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/passthrucanio.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/passthrucan/meta_types/qt6passthrucanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PassThruCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/passthrucan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/passthrucan/Debug/PassThruCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/peakcan_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/peakcan/meta_types/qt6peakcanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/peakcan/RelWithDebInfo/PeakCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-PeakCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/peakcan_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/peakcanbackend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/peakcan/meta_types/qt6peakcanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-PeakCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/peakcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/peakcan/Debug/PeakCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/tinycan_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/tinycan/meta_types/qt6tinycanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/tinycan/RelWithDebInfo/TinyCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-TinyCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/tinycan_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/tinycanbackend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/tinycan/meta_types/qt6tinycanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-TinyCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/tinycan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/tinycan/Debug/TinyCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/systeccan_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/systeccan/meta_types/qt6systeccanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/systeccan/RelWithDebInfo/SystecCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-SystecCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/systeccan_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/systeccanbackend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/systeccan/meta_types/qt6systeccanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SystecCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/systeccan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/systeccan/Debug/SystecCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/vectorcan_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/vectorcan/meta_types/qt6vectorcanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/vectorcan/RelWithDebInfo/VectorCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-plugin-VectorCanBusPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/vectorcan_symbols_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/vectorcanbackend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/vectorcan/meta_types/qt6vectorcanbusplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-VectorCanBusPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/plugins/canbus/vectorcan/C:/Users/qt/work/qt/qtserialbus_build/src/plugins/canbus/vectorcan/Debug/VectorCanBusPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-app-canbusutil",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-app-canbusutil",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformAppInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-app-canbusutil",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-app-canbusutil",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-app-canbusutil",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-module-SerialBus",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus",
+            "relatedSpdxElement": "SPDXRef-Package-qtserialbus-qt-app-canbusutil",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-app-canbusutil",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtserialbus-qt-app-canbusutil",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/tools/canbusutil/canbusutil.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/tools/canbusutil/canbusutil.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/tools/canbusutil/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/tools/canbusutil/readtask.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/tools/canbusutil/readtask.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/tools/canbusutil/sigtermhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/tools/canbusutil/sigtermhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-canbusutil-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtserialbus/src/tools/canbusutil/C:/Users/qt/work/qt/qtserialbus_build/src/tools/canbusutil/RelWithDebInfo/canbusutil_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

@@ -1,0 +1,1267 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T14:45:15Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtdeclarative",
+            "spdxDocument": "https://qt.io/spdxdocs/qtdeclarative-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "46a6b0a462a24d68afa0ef592174bef8ccf3fc68"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtwebsockets-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtwebsockets-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebsockets",
+            "builtDate": "2024-10-02T14:45:15Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebsockets.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebsockets@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtwebsockets",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "d1dfe29d1dd85d1f1c41be9ac56ffecc18ac42dd"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebsockets.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtwebsockets?library_name=WebSockets#src/websockets",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebsockets-WebSockets?vcs_url=https://code.qt.io/qt/qtwebsockets.git&library_name=WebSockets#src/websockets",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtwebsockets:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "WebSockets",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebsockets.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtwebsockets?library_name=qmlwebsockets#src/imports/qmlwebsockets",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebsockets-qmlwebsockets?vcs_url=https://code.qt.io/qt/qtwebsockets.git&library_name=qmlwebsockets#src/imports/qmlwebsockets",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtwebsockets:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "qmlwebsockets",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "19cca33260572d9f23d9cde51363140de925508d"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebSockets.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6bcee2aa80a2c732dd86c3555153c6d323b749c4"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebSocketsd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3844f989154a269aa8109ff73038f636afeafa2f"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebSockets.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ea124f638b51430126c845c5d6ec06b3d62bbad5"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebSocketsd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "28ea752a371ea877160e50ca652f93d1bb295967"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtWebSockets/qmlwebsocketsplugin.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3d7d4f6697c4e05f8a44dc1ceae4a4f1a87d60a3"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtWebSockets/qmlwebsocketsplugind.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtwebsockets is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebsockets",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebsockets",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/src/websockets/RelWithDebInfo/WebSockets_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/include/QtWebSockets/qtwebsocketsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qmaskgenerator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qmaskgenerator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketdataprocessor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketdataprocessor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketframe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketframe_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakerequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakerequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeresponse.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeresponse_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockets_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/src/websockets/meta_types/qt6websockets_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/src/websockets/Debug/WebSockets_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/include/QtWebSockets/qtwebsocketsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qmaskgenerator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qmaskgenerator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketdataprocessor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketdataprocessor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketframe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketframe_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakerequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakerequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeresponse.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeresponse_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockets_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/src/websockets/meta_types/qt6websockets_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/src/websockets/RelWithDebInfo/WebSockets_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/include/QtWebSockets/qtwebsocketsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qmaskgenerator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qmaskgenerator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketdataprocessor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketdataprocessor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketframe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketframe_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakerequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakerequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeresponse.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeresponse_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockets_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/src/websockets/meta_types/qt6websockets_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/src/websockets/Debug/WebSockets_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/include/QtWebSockets/qtwebsocketsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qdefaultmaskgenerator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qmaskgenerator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qmaskgenerator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocket_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketcorsauthenticator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketdataprocessor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketdataprocessor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketframe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketframe_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeoptions_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakerequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakerequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeresponse.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockethandshakeresponse_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketprotocol_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsockets_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver_p.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/qwebsocketserver_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebSockets-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/websockets/C:/Users/qt/work/qt/qtwebsockets_build/src/websockets/meta_types/qt6websockets_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebsockets-qt-module-WebSockets",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qmlwebsockets_plugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qmlwebsockets_plugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocket.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocketserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocketserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/C:/Users/qt/work/qt/qtwebsockets_build/src/imports/qmlwebsockets/.qt/rcc/qrc_qmake_QtWebSockets.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/C:/Users/qt/work/qt/qtwebsockets_build/src/imports/qmlwebsockets/RelWithDebInfo/qmlwebsockets_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebsockets-qt-plugin-qmlwebsockets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qmlwebsockets_plugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qmlwebsockets_plugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocket.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocketserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/qqmlwebsocketserver.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/C:/Users/qt/work/qt/qtwebsockets_build/src/imports/qmlwebsockets/.qt/rcc/qrc_qmake_QtWebSockets.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qmlwebsockets-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebsockets/src/imports/qmlwebsockets/C:/Users/qt/work/qt/qtwebsockets_build/src/imports/qmlwebsockets/Debug/qmlwebsockets_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

@@ -1,0 +1,401 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T16:35:49Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtdeclarative",
+            "spdxDocument": "https://qt.io/spdxdocs/qtdeclarative-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "46a6b0a462a24d68afa0ef592174bef8ccf3fc68"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtshadertools",
+            "spdxDocument": "https://qt.io/spdxdocs/qtshadertools-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "985604ca46a84a24b57d5a20190b33c444baa8c5"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qqeffectmaker-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qqeffectmaker-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qqeffectmaker",
+            "builtDate": "2024-10-02T16:35:49Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qqeffectmaker.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qqeffectmaker@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qqeffectmaker",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "6f0cd7eac682e1387503bf491a8ab1c835422e25"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qqeffectmaker.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qqeffectmaker?library_name=qqem#tools/qqem",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qqeffectmaker-qqem?vcs_url=https://code.qt.io/qt/qqeffectmaker.git&library_name=qqem#tools/qqem",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qqeffectmaker:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "name": "qqem",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "5a7c17fa66c3ceb58e9ffcb8bf8aa4839dc876e9"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/qqem.exe",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qqeffectmaker is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qqeffectmaker",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qqeffectmaker",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Quick",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "relatedSpdxElement": "DocumentRef-qtshadertools:SPDXRef-Package-qtshadertools-qt-module-ShaderTools",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformAppInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qqeffectmaker",
+            "relatedSpdxElement": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qqeffectmaker-qt-app-qqem",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/addnodemodel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/addnodemodel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/applicationsettings.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/applicationsettings.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/arrowsmodel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/arrowsmodel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/effectmanager.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/effectmanager.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/fpshelper.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/fpshelper.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/nodesmodel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/nodesmodel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/nodeview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/nodeview.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/propertyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/propertyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/qsbinspectorhelper.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/qsbinspectorhelper.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/shaderfeatures.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/shaderfeatures.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/syntaxhighlighter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/syntaxhighlighter.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/syntaxhighlighterdata.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/syntaxhighlighterdata.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/uniformmodel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/uniformmodel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/codehelper.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/codehelper.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/codecompletionmodel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/codecompletionmodel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/C:/Users/qt/work/qt/qtquickeffectmaker_build/tools/qqem/.qt/rcc/qrc_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/C:/Users/qt/work/qt/qtquickeffectmaker_build/tools/qqem/RelWithDebInfo/qqem_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

@@ -1,0 +1,1992 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T14:39:21Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtdeclarative",
+            "spdxDocument": "https://qt.io/spdxdocs/qtdeclarative-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "46a6b0a462a24d68afa0ef592174bef8ccf3fc68"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtremoteobjects-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtremoteobjects-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtremoteobjects",
+            "builtDate": "2024-10-02T14:39:21Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtremoteobjects.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtremoteobjects@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtremoteobjects",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "640c0efbe7f01dba3bb7ca14857d45019233b4c8"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtremoteobjects-qt-module-RepParser",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtremoteobjects.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtremoteobjects?library_name=RepParser#src/repparser",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtremoteobjects-RepParser?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=RepParser#src/repparser",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtremoteobjects:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "RepParser",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtremoteobjects.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtremoteobjects?library_name=RemoteObjects#src/remoteobjects",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtremoteobjects-RemoteObjects?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=RemoteObjects#src/remoteobjects",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtremoteobjects:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "RemoteObjects",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtremoteobjects.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtremoteobjects?library_name=RemoteObjectsQml#src/remoteobjectsqml",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtremoteobjects-RemoteObjectsQml?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=RemoteObjectsQml#src/remoteobjectsqml",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtremoteobjects:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "RemoteObjectsQml",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtremoteobjects.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtremoteobjects?library_name=declarative_remoteobjects#src/remoteobjectsqml",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtremoteobjects-declarative_remoteobjects?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=declarative_remoteobjects#src/remoteobjectsqml",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtremoteobjects:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "declarative_remoteobjects",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtremoteobjects-qt-tool-repc",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtremoteobjects.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtremoteobjects?library_name=repc#tools/repc",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtremoteobjects-repc?vcs_url=https://code.qt.io/qt/qtremoteobjects.git&library_name=repc#tools/repc",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtremoteobjects:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "name": "repc",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a3e58f222f385d90a0f86ca5176ba6f240c4c1d7"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6RemoteObjects.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b9826e451e383a601b92560071198046a899627f"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6RemoteObjectsd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c3ad306d70c03fdc450446ece7f08e1cbc0ffd93"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6RemoteObjects.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "adf92d55dad0aafc7300ed2181e975e79873f3ce"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6RemoteObjectsd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a086bdaaacb68040f17485d0b0746b9c22c70909"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6RemoteObjectsQml.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b5087802edcd5e0613cec286ee0ec6043c59cd27"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6RemoteObjectsQmld.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e804abe35c8609136b56ff8c8d132067a8709a01"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6RemoteObjectsQml.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2c53da9118ace05ac6c06f513e77fb6ca4f94eb0"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6RemoteObjectsQmld.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "31b7f61be3aea8e75cb9e514d76ddc5474c820b4"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtRemoteObjects/declarative_remoteobjectsplugin.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "5f2ebec034c11fd914440b7f01eef06724a45d5e"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtRemoteObjects/declarative_remoteobjectsplugind.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "406616898285919b73c020db729c339229faa244"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/repc.exe",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtremoteobjects is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtremoteobjects",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtremoteobjects",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RepParser",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects",
+            "relatedSpdxElement": "SPDXRef-Package-qtremoteobjects-qt-module-RepParser",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects",
+            "relatedSpdxElement": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/RelWithDebInfo/RemoteObjects_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/include/QtRemoteObjects/qtremoteobjectsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_local_backend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_local_backend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeltypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpacket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpacket_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/qtremoteobjects-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/qtremoteobjects-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/meta_types/qt6remoteobjects_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/Debug/RemoteObjects_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/include/QtRemoteObjects/qtremoteobjectsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_local_backend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_local_backend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeltypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpacket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpacket_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/qtremoteobjects-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/qtremoteobjects-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/meta_types/qt6remoteobjects_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/RelWithDebInfo/RemoteObjects_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/include/QtRemoteObjects/qtremoteobjectsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_local_backend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_local_backend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeltypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpacket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpacket_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/qtremoteobjects-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/qtremoteobjects-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/meta_types/qt6remoteobjects_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/Debug/RemoteObjects_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/include/QtRemoteObjects/qtremoteobjectsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_local_backend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_local_backend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnection_tcpip_backend_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qconnectionfactories_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeladapter_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodelreplica_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectabstractitemmodeltypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectcontainers_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectdynamicreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectnode_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpacket.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpacket_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectpendingcall_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistry.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectregistrysource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectreplica_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsettingsstore.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qremoteobjectsourceio_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/qtremoteobjectglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/qtremoteobjects-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/qtremoteobjects-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjects-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjects/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjects/meta_types/qt6remoteobjects_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects",
+            "relatedSpdxElement": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/RelWithDebInfo/RemoteObjectsQml_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/qremoteobjectsqml_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/meta_types/qt6remoteobjectsqml_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/remoteobjectsqml_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/.qt/rcc/qrc_qmake_QtRemoteObjects.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/Debug/RemoteObjectsQml_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/qremoteobjectsqml_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/meta_types/qt6remoteobjectsqml_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/remoteobjectsqml_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/.qt/rcc/qrc_qmake_QtRemoteObjects.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/RelWithDebInfo/RemoteObjectsQml_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/qremoteobjectsqml_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/meta_types/qt6remoteobjectsqml_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/remoteobjectsqml_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/.qt/rcc/qrc_qmake_QtRemoteObjects.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/Debug/RemoteObjectsQml_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/qremoteobjectsqml_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/meta_types/qt6remoteobjectsqml_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/remoteobjectsqml_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-RemoteObjectsQml-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/.qt/rcc/qrc_qmake_QtRemoteObjects.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects",
+            "relatedSpdxElement": "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/declarative_remoteobjects_QtRemoteObjectsPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/RelWithDebInfo/declarative_remoteobjects_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/declarative_remoteobjects_QtRemoteObjectsPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-declarative-remoteobjects-Debug",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/src/remoteobjectsqml/C:/Users/qt/work/qt/qtremoteobjects_build/src/remoteobjectsqml/Debug/declarative_remoteobjects_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-tool-repc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-tool-repc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformToolInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-tool-repc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects",
+            "relatedSpdxElement": "SPDXRef-Package-qtremoteobjects-qt-tool-repc",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-tool-repc",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtremoteobjects-qt-tool-repc",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/C:/Users/qt/work/qt/qtremoteobjects_build/tools/repc/RelWithDebInfo/repc_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/cppcodegenerator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/cppcodegenerator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/repcodegenerator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/repcodegenerator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/utils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/utils.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/C:/Users/qt/work/qt/qtremoteobjects_build/tools/repc/repc_longpath.manifest",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/rep_grammar.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/repparser.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/C:/Users/qt/work/qt/qtremoteobjects_build/tools/repc/rep_grammar_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-repc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtremoteobjects/tools/repc/C:/Users/qt/work/qt/qtremoteobjects_build/tools/repc/repparser.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

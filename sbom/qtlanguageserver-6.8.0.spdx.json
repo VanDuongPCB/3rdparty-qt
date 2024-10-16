@@ -1,0 +1,653 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T08:42:16Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtlanguageserver-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtlanguageserver-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtlanguageserver",
+            "builtDate": "2024-10-02T08:42:16Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtlanguageserver.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtlanguageserver@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtlanguageserver",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "0b8d5a18c754e5f22e288c0f7082b2004a8b197a"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtlanguageserver.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtlanguageserver?library_name=JsonRpcPrivate#src/jsonrpc",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtlanguageserver-JsonRpcPrivate?vcs_url=https://code.qt.io/qt/qtlanguageserver.git&library_name=JsonRpcPrivate#src/jsonrpc",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtlanguageserver:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "JsonRpcPrivate",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtlanguageserver.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtlanguageserver?library_name=LanguageServerPrivate#src/languageserver",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtlanguageserver-LanguageServerPrivate?vcs_url=https://code.qt.io/qt/qtlanguageserver.git&library_name=LanguageServerPrivate#src/languageserver",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtlanguageserver:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "LanguageServerPrivate",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2f99ae1db7123bdb9b7340bb50fd3bd475111fa1"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6JsonRpc.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d1a68312000415d46aad8e281954f0fcc6eaed9d"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6JsonRpcd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a8f12e4d426c5de5fb245203c3eb39395fec0268"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6LanguageServer.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e2bfc0e1cfb78678ef0ca69189ac443485d16d59"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6LanguageServerd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtlanguageserver is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtlanguageserver",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtlanguageserver",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver",
+            "relatedSpdxElement": "SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpctransport_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtjsonrpcglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsontypedrpc_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsontypedrpc.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtypedjson_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtypedjson.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/C:/Users/qt/work/qt/qtlanguageserver_build/src/jsonrpc/meta_types/qt6jsonrpcprivate_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qhttpmessagestreamparser.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpcprotocol_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsonrpctransport_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtjsonrpcglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsontypedrpc_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qjsontypedrpc.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtypedjson_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/qtypedjson.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-JsonRpcPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/jsonrpc/C:/Users/qt/work/qt/qtlanguageserver_build/src/jsonrpc/meta_types/qt6jsonrpcprivate_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate",
+            "relatedSpdxElement": "SPDXRef-Package-qtlanguageserver-qt-module-JsonRpcPrivate",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver",
+            "relatedSpdxElement": "SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprespectypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverspec_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverspectypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qtlanguageserverglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprotocol_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprotocol.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlspnotifysignals_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlspnotifysignals.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/C:/Users/qt/work/qt/qtlanguageserver_build/src/languageserver/meta_types/qt6languageserverprivate_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtlanguageserver-qt-module-LanguageServerPrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprespectypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverspec_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverspectypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverjsonrpctransport.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qtlanguageserverglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverbase.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageservergen.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprotocol_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlanguageserverprotocol.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlspnotifysignals_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/qlspnotifysignals.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-LanguageServerPrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtlanguageserver/src/languageserver/C:/Users/qt/work/qt/qtlanguageserver_build/src/languageserver/meta_types/qt6languageserverprivate_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

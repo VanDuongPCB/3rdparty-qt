@@ -1,0 +1,1005 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T08:36:02Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtnetworkauth-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtnetworkauth-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtnetworkauth",
+            "builtDate": "2024-10-02T08:36:02Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtnetworkauth.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtnetworkauth@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtnetworkauth",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "2535ebcd119bdec98e460b8d126d19fe98e8b5d2"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtnetworkauth.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtnetworkauth?library_name=NetworkAuth#src/oauth",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtnetworkauth-NetworkAuth?vcs_url=https://code.qt.io/qt/qtnetworkauth.git&library_name=NetworkAuth#src/oauth",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtnetworkauth:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR GPL-3.0-only",
+            "name": "NetworkAuth",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "f5217a4db3825a896c25f6317a271106d77810cb"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6NetworkAuth.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6c4ccac0a4f7de1a6f3e0d5f431e1e84bdbbdebe"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6NetworkAuthd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b9f4da07f059cdaef1889606297d120091e3b233"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6NetworkAuth.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d5d7d842de7f9c64cde744b3b79d8994570a83bb"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6NetworkAuthd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtnetworkauth is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtnetworkauth",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtnetworkauth",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth",
+            "relatedSpdxElement": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/RelWithDebInfo/NetworkAuth_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/qtnetworkauth-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/qtnetworkauth-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/meta_types/qt6networkauth_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthurischemereplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthurischemereplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/Debug/NetworkAuth_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/qtnetworkauth-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/qtnetworkauth-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/meta_types/qt6networkauth_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthurischemereplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthurischemereplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/RelWithDebInfo/NetworkAuth_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/qtnetworkauth-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/qtnetworkauth-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/meta_types/qt6networkauth_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthurischemereplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthurischemereplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/Debug/NetworkAuth_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauth2_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qabstractoauthreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth1signature_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauth2authorizationcodeflow_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthhttpserverreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthoobreplyhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/qtnetworkauth-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/qtnetworkauth-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/C:/Users/qt/work/qt/qtnetworkauth_build/src/oauth/meta_types/qt6networkauth_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthurischemereplyhandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-NetworkAuth-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtnetworkauth/src/oauth/qoauthurischemereplyhandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

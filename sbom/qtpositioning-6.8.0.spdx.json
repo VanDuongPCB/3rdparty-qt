@@ -1,0 +1,3563 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T14:54:33Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtserialport",
+            "spdxDocument": "https://qt.io/spdxdocs/qtserialport-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "881cf44079b434662abd073140baccd9b021628a"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtdeclarative",
+            "spdxDocument": "https://qt.io/spdxdocs/qtdeclarative-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "46a6b0a462a24d68afa0ef592174bef8ccf3fc68"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtpositioning-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtpositioning-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning",
+            "builtDate": "2024-10-02T14:54:33Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtpositioning.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtpositioning",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "23db481b59c1b02010b163e1336625157c3d2714"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Poly2Tri",
+            "comment": "\n    Name: Poly2Tri Polygon Triangulation Library\n    Description: Poly2Tri is a sweepline constrained Delaunay Polygon Triangulation Library.\n    Qt usage: Used in the QML plugin of Qt Location and in Qt Positioning.\n    Information extracted from:\n     C:/Users/qt/work/qt/qtpositioning/src/3rdparty/poly2tri/qt_attribution.json\n    Entry index: 0\n",
+            "copyrightText": "Poly2Tri Copyright (c) 2009-2010, Poly2Tri Contributors",
+            "downloadLocation": "https://github.com/greenm01/poly2tri",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtpositioning?library_name=Bundled_Poly2Tri#src/3rdparty/poly2tri",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning-Bundled_Poly2Tri?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=Bundled_Poly2Tri#src/3rdparty/poly2tri",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Bundled_Poly2Tri",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "commit a922022da4c0d3a55b1d6b6d634219caea653053"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clipper",
+            "comment": "\n    Name: Clipper Polygon Clipping Library\n    Description: The Clipper library performs line & polygon clipping - intersection, union, difference & exclusive-or, and line & polygon offsetting.\n    Qt usage: Used in the QML plugin of Qt Location and in Qt Positioning.\n    Information extracted from:\n     C:/Users/qt/work/qt/qtpositioning/src/3rdparty/clipper/qt_attribution.json\n    Entry index: 0\n",
+            "copyrightText": "Copyright Angus Johnson 2010-2017",
+            "downloadLocation": "https://sourceforge.net/projects/polyclipping/",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtpositioning?library_name=Bundled_Clipper#src/3rdparty/clipper",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning-Bundled_Clipper?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=Bundled_Clipper#src/3rdparty/clipper",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "BSL-1.0",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Bundled_Clipper",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.4.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri",
+            "comment": "\n    Name: Clip2Tri Polygon Triangulation Library\n    Description: Clip2Tri can be used together with Clipper for robust triangulation.\n    Qt usage: Used in the QML plugin of Qt Location and in Qt Positioning.\n    Information extracted from:\n     C:/Users/qt/work/qt/qtpositioning/src/3rdparty/clip2tri/qt_attribution.json\n    Entry index: 0\n",
+            "copyrightText": "Copyright (c) 2014 Bitfighter developers",
+            "downloadLocation": "https://github.com/raptor/clip2tri",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtpositioning?library_name=Bundled_Clip2Tri#src/3rdparty/clip2tri",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning-Bundled_Clip2Tri?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=Bundled_Clip2Tri#src/3rdparty/clip2tri",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Bundled_Clip2Tri",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "unknown"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtpositioning.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtpositioning?library_name=Positioning#src/positioning",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning-Positioning?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=Positioning#src/positioning",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "Positioning",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtpositioning.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtpositioning?library_name=QGeoPositionInfoSourceFactoryPollPlugin#src/plugins/position/positionpoll",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning-QGeoPositionInfoSourceFactoryPollPlugin?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=QGeoPositionInfoSourceFactoryPollPlugin#src/plugins/position/positionpoll",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QGeoPositionInfoSourceFactoryPollPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtpositioning.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtpositioning?library_name=QGeoPositionInfoSourceFactoryWinRTPlugin#src/plugins/position/winrt",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning-QGeoPositionInfoSourceFactoryWinRTPlugin?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=QGeoPositionInfoSourceFactoryWinRTPlugin#src/plugins/position/winrt",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtpositioning.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtpositioning?library_name=QGeoPositionInfoSourceFactoryNmeaPlugin#src/plugins/position/nmea",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning-QGeoPositionInfoSourceFactoryNmeaPlugin?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=QGeoPositionInfoSourceFactoryNmeaPlugin#src/plugins/position/nmea",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtpositioning.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtpositioning?library_name=PositioningQuick#src/positioningquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning-PositioningQuick?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=PositioningQuick#src/positioningquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "PositioningQuick",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtpositioning.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtpositioning?library_name=positioningquickplugin#src/positioningquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtpositioning-positioningquickplugin?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=positioningquickplugin#src/positioningquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "positioningquickplugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e9ce6047fdf851b616fa3a9330b43bc6551d7c02"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6Positioning.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d03fc977fda42aff9829a20be4e73c8e3e04de83"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6Positioningd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "33d3fc7c6a0e957f019fa91ad1c3827b4b963ac2"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6Positioning.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "faa0bfacc5f034c30f42a1de66152d26967d3a81"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6Positioningd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b0167f411bd451c1674c98858c5fafe930596a56"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/position/qtposition_positionpoll.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2052efab1b68eb5214a896ce534c3bfa095c1d3d"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/position/qtposition_positionpolld.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "fbb93303452060c4ec5070dff1c8488c816fdad7"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/position/qtposition_winrt.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a6836b420fe4e7cf639db3692788d525fb82bf28"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/position/qtposition_winrtd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b6bf38b5d84030cddda616ab993a156e025ac9d2"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/position/qtposition_nmea.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6a060df9c31086f625454a496839b7a71346480b"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/position/qtposition_nmead.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7b452604a4e17f8469dc16d95f6769086850dfcd"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6PositioningQuick.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9017180068adc1f28e993eb10864ee9cf50914c1"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6PositioningQuickd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "379dd215f28e82657a244a272990faa62c1e83d2"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6PositioningQuick.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "46eaba2ac7e818d71fdd211a62bd8c48e3562585"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6PositioningQuickd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "eda88b0f46614bd90d0b41ae263300aa56978a6d"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtPositioning/positioningquickplugin.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "f6137c52a4d86e5a0423f033b1a3acf063ea6476"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtPositioning/positioningquickplugind.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtpositioning is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Poly2Tri",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Poly2Tri",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clipper",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clipper",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clipper",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Poly2Tri",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/RelWithDebInfo/Positioning_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioning/qtpositioningexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/meta_types/qt6positioning_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/Debug/Positioning_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioning/qtpositioningexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/meta_types/qt6positioning_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/RelWithDebInfo/Positioning_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioning/qtpositioningexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/meta_types/qt6positioning_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/Debug/Positioning_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioning/qtpositioningexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/meta_types/qt6positioning_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/positionpollfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/positionpollfactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/qgeoareamonitor_polling.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/qgeoareamonitor_polling.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/positionpoll/meta_types/qt6qgeopositioninfosourcefactorypollplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/positionpoll/RelWithDebInfo/QGeoPositionInfoSourceFactoryPollPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/positionpollfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/positionpollfactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/qgeoareamonitor_polling.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/qgeoareamonitor_polling.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/positionpoll/meta_types/qt6qgeopositioninfosourcefactorypollplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/positionpoll/Debug/QGeoPositionInfoSourceFactoryPollPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosource_winrt.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosource_winrt_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosourcefactory_winrt.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosourcefactory_winrt.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/winrt/meta_types/qt6qgeopositioninfosourcefactorywinrtplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/winrt/RelWithDebInfo/QGeoPositionInfoSourceFactoryWinRTPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosource_winrt.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosource_winrt_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosourcefactory_winrt.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosourcefactory_winrt.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/winrt/meta_types/qt6qgeopositioninfosourcefactorywinrtplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/winrt/Debug/QGeoPositionInfoSourceFactoryWinRTPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relatedSpdxElement": "DocumentRef-qtserialport:SPDXRef-Package-qtserialport-qt-module-SerialPort",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qgeopositioninfosourcefactory_nmea.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qgeopositioninfosourcefactory_nmea.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qiopipe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qiopipe_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/nmea/meta_types/qt6qgeopositioninfosourcefactorynmeaplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/nmea/RelWithDebInfo/QGeoPositionInfoSourceFactoryNmeaPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qgeopositioninfosourcefactory_nmea.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qgeopositioninfosourcefactory_nmea.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qiopipe.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qiopipe_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/nmea/meta_types/qt6qgeopositioninfosourcefactorynmeaplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/nmea/Debug/QGeoPositionInfoSourceFactoryNmeaPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Quick",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-module-Positioning",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/RelWithDebInfo/PositioningQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioningQuick/qtpositioningquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/meta_types/qt6positioningquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/positioningquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/.qt/rcc/qrc_qmake_QtPositioning.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/Debug/PositioningQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioningQuick/qtpositioningquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/meta_types/qt6positioningquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/positioningquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/.qt/rcc/qrc_qmake_QtPositioning.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/RelWithDebInfo/PositioningQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioningQuick/qtpositioningquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/meta_types/qt6positioningquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/positioningquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/.qt/rcc/qrc_qmake_QtPositioning.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/Debug/PositioningQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioningQuick/qtpositioningquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/meta_types/qt6positioningquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/positioningquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/.qt/rcc/qrc_qmake_QtPositioning.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Quick",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-module-PositioningQuick",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning",
+            "relatedSpdxElement": "SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/positioningplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/RelWithDebInfo/positioningquickplugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/positioningplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/Debug/positioningquickplugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

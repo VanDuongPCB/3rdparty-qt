@@ -1,0 +1,1233 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtpositioning-6.8.0
+DocumentNamespace: https://qt.io/spdxdocs/qtpositioning-6.8.0
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.27.7, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2024-10-02T14:54:33Z
+ExternalDocumentRef: DocumentRef-qtbase https://qt.io/spdxdocs/qtbase-6.8.0 SHA1: 213493d87d45d3d7f458102ff31588b943cce995;
+ExternalDocumentRef: DocumentRef-qtserialport https://qt.io/spdxdocs/qtserialport-6.8.0 SHA1: 881cf44079b434662abd073140baccd9b021628a;
+ExternalDocumentRef: DocumentRef-qtdeclarative https://qt.io/spdxdocs/qtdeclarative-6.8.0 SHA1: 46a6b0a462a24d68afa0ef592174bef8ccf3fc68
+
+PackageName: MSVC
+SPDXID: SPDXRef-compiler
+PackageVersion: 19.39.33520.0
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSupplier: Organization: Anonymous
+FilesAnalyzed: false
+PackageSummary: <text>The compiler as identified by CMake, running on Windows (AMD64)</text>
+PrimaryPackagePurpose: APPLICATION
+Relationship: SPDXRef-compiler BUILD_DEPENDENCY_OF SPDXRef-Package-qtpositioning
+RelationshipComment: <text>SPDXRef-Package-qtpositioning is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0</text>
+
+PackageName: qtpositioning
+SPDXID: SPDXRef-Package-qtpositioning
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning@6.8.0
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtpositioning.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) 2024 The Qt Company Ltd.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)</text>
+PackageVerificationCode: 23db481b59c1b02010b163e1336625157c3d2714
+BuiltDate: 2024-10-02T14:54:33Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtpositioning
+
+PackageName: Bundled_Poly2Tri
+SPDXID: SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Poly2Tri
+PackageDownloadLocation: https://github.com/greenm01/poly2tri
+PackageVersion: commit a922022da4c0d3a55b1d6b6d634219caea653053
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtpositioning?library_name=Bundled_Poly2Tri#src/3rdparty/poly2tri
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning-Bundled_Poly2Tri?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=Bundled_Poly2Tri#src/3rdparty/poly2tri
+FilesAnalyzed: true
+PackageCopyrightText: <text>Poly2Tri Copyright (c) 2009-2010, Poly2Tri Contributors</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+    Name: Poly2Tri Polygon Triangulation Library
+    Description: Poly2Tri is a sweepline constrained Delaunay Polygon Triangulation Library.
+    Qt usage: Used in the QML plugin of Qt Location and in Qt Positioning.
+    Information extracted from:
+     C:/Users/qt/work/qt/qtpositioning/src/3rdparty/poly2tri/qt_attribution.json
+    Entry index: 0
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Poly2Tri DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtpositioning CONTAINS SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Poly2Tri
+
+PackageName: Bundled_Clipper
+SPDXID: SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clipper
+PackageDownloadLocation: https://sourceforge.net/projects/polyclipping/
+PackageVersion: 6.4.2
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: BSL-1.0
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtpositioning?library_name=Bundled_Clipper#src/3rdparty/clipper
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning-Bundled_Clipper?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=Bundled_Clipper#src/3rdparty/clipper
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright Angus Johnson 2010-2017</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+    Name: Clipper Polygon Clipping Library
+    Description: The Clipper library performs line & polygon clipping - intersection, union, difference & exclusive-or, and line & polygon offsetting.
+    Qt usage: Used in the QML plugin of Qt Location and in Qt Positioning.
+    Information extracted from:
+     C:/Users/qt/work/qt/qtpositioning/src/3rdparty/clipper/qt_attribution.json
+    Entry index: 0
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clipper DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtpositioning CONTAINS SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clipper
+
+PackageName: Bundled_Clip2Tri
+SPDXID: SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri
+PackageDownloadLocation: https://github.com/raptor/clip2tri
+PackageVersion: unknown
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtpositioning?library_name=Bundled_Clip2Tri#src/3rdparty/clip2tri
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning-Bundled_Clip2Tri?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=Bundled_Clip2Tri#src/3rdparty/clip2tri
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (c) 2014 Bitfighter developers</text>
+PrimaryPackagePurpose: LIBRARY
+PackageComment: <text>
+    Name: Clip2Tri Polygon Triangulation Library
+    Description: Clip2Tri can be used together with Clipper for robust triangulation.
+    Qt usage: Used in the QML plugin of Qt Location and in Qt Positioning.
+    Information extracted from:
+     C:/Users/qt/work/qt/qtpositioning/src/3rdparty/clip2tri/qt_attribution.json
+    Entry index: 0
+</text>
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri DEPENDS_ON SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clipper
+Relationship: SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri DEPENDS_ON SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Poly2Tri
+Relationship: SPDXRef-Package-qtpositioning CONTAINS SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri
+
+PackageName: Positioning
+SPDXID: SPDXRef-Package-qtpositioning-qt-module-Positioning
+PackageDownloadLocation: git://code.qt.io/qt/qtpositioning.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtpositioning?library_name=Positioning#src/positioning
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning-Positioning?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=Positioning#src/positioning
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtpositioning-qt-module-Positioning DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtpositioning-qt-module-Positioning DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtpositioning-qt-module-Positioning DEPENDS_ON SPDXRef-Package-qtpositioning-qt-bundled-3rdparty-module-Bundled-Clip2Tri
+Relationship: SPDXRef-Package-qtpositioning CONTAINS SPDXRef-Package-qtpositioning-qt-module-Positioning
+
+FileName: ./bin/Qt6Positioning.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: e9ce6047fdf851b616fa3a9330b43bc6551d7c02
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-module-Positioning CONTAINS SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/RelWithDebInfo/Positioning_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioning/qtpositioningexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/meta_types/qt6positioning_metatypes.json.gen
+
+FileName: ./bin/Qt6Positioningd.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-Positioning-Debug
+FileType: BINARY
+FileChecksum: SHA1: d03fc977fda42aff9829a20be4e73c8e3e04de83
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-module-Positioning CONTAINS SPDXRef-PackagedFile-qt-module-Positioning-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/Debug/Positioning_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioning/qtpositioningexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/meta_types/qt6positioning_metatypes.json.gen
+
+FileName: ./lib/Qt6Positioning.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 33d3fc7c6a0e957f019fa91ad1c3827b4b963ac2
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-module-Positioning CONTAINS SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/RelWithDebInfo/Positioning_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioning/qtpositioningexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/meta_types/qt6positioning_metatypes.json.gen
+
+FileName: ./lib/Qt6Positioningd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug
+FileType: BINARY
+FileChecksum: SHA1: faa0bfacc5f034c30f42a1de66152d26967d3a81
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-module-Positioning CONTAINS SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/Debug/Positioning_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioning/qtpositioningexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qclipperutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublematrix4x4_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector2d_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qdoublevector3d_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoaddress_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoareamonitorsource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocircle_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinate_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeocoordinateobject_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeolocation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopolygon_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeopositioninfosourcefactory.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeorectangle_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeosatelliteinfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qgeoshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qlocationutils_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeapositioninfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qnmeasatelliteinfosource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qpositioningglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/qwebmercator_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/qtpositioning-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-Positioning-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioning/C:/Users/qt/work/qt/qtpositioning_build/src/positioning/meta_types/qt6positioning_metatypes.json.gen
+
+PackageName: QGeoPositionInfoSourceFactoryPollPlugin
+SPDXID: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin
+PackageDownloadLocation: git://code.qt.io/qt/qtpositioning.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtpositioning?library_name=QGeoPositionInfoSourceFactoryPollPlugin#src/plugins/position/positionpoll
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning-QGeoPositionInfoSourceFactoryPollPlugin?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=QGeoPositionInfoSourceFactoryPollPlugin#src/plugins/position/positionpoll
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin DEPENDS_ON SPDXRef-Package-qtpositioning-qt-module-Positioning
+Relationship: SPDXRef-Package-qtpositioning CONTAINS SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin
+
+FileName: ./plugins/position/qtposition_positionpoll.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: b0167f411bd451c1674c98858c5fafe930596a56
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/positionpollfactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/positionpollfactory.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/qgeoareamonitor_polling.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/qgeoareamonitor_polling.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/positionpoll/meta_types/qt6qgeopositioninfosourcefactorypollplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/positionpoll/RelWithDebInfo/QGeoPositionInfoSourceFactoryPollPlugin_resource.rc
+
+FileName: ./plugins/position/qtposition_positionpolld.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug
+FileType: BINARY
+FileChecksum: SHA1: 2052efab1b68eb5214a896ce534c3bfa095c1d3d
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/positionpollfactory.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/positionpollfactory.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/qgeoareamonitor_polling.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/qgeoareamonitor_polling.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/positionpoll/meta_types/qt6qgeopositioninfosourcefactorypollplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryPollPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/positionpoll/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/positionpoll/Debug/QGeoPositionInfoSourceFactoryPollPlugin_resource.rc
+
+PackageName: QGeoPositionInfoSourceFactoryWinRTPlugin
+SPDXID: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin
+PackageDownloadLocation: git://code.qt.io/qt/qtpositioning.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtpositioning?library_name=QGeoPositionInfoSourceFactoryWinRTPlugin#src/plugins/position/winrt
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning-QGeoPositionInfoSourceFactoryWinRTPlugin?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=QGeoPositionInfoSourceFactoryWinRTPlugin#src/plugins/position/winrt
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin DEPENDS_ON SPDXRef-Package-qtpositioning-qt-module-Positioning
+Relationship: SPDXRef-Package-qtpositioning CONTAINS SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin
+
+FileName: ./plugins/position/qtposition_winrt.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: fbb93303452060c4ec5070dff1c8488c816fdad7
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosource_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosource_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosourcefactory_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosourcefactory_winrt.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/winrt/meta_types/qt6qgeopositioninfosourcefactorywinrtplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/winrt/RelWithDebInfo/QGeoPositionInfoSourceFactoryWinRTPlugin_resource.rc
+
+FileName: ./plugins/position/qtposition_winrtd.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug
+FileType: BINARY
+FileChecksum: SHA1: a6836b420fe4e7cf639db3692788d525fb82bf28
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosource_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosource_winrt_p.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosourcefactory_winrt.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/qgeopositioninfosourcefactory_winrt.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/winrt/meta_types/qt6qgeopositioninfosourcefactorywinrtplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryWinRTPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/winrt/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/winrt/Debug/QGeoPositionInfoSourceFactoryWinRTPlugin_resource.rc
+
+PackageName: QGeoPositionInfoSourceFactoryNmeaPlugin
+SPDXID: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin
+PackageDownloadLocation: git://code.qt.io/qt/qtpositioning.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtpositioning?library_name=QGeoPositionInfoSourceFactoryNmeaPlugin#src/plugins/position/nmea
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning-QGeoPositionInfoSourceFactoryNmeaPlugin?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=QGeoPositionInfoSourceFactoryNmeaPlugin#src/plugins/position/nmea
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Network
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin DEPENDS_ON DocumentRef-qtserialport:SPDXRef-Package-qtserialport-qt-module-SerialPort
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin DEPENDS_ON SPDXRef-Package-qtpositioning-qt-module-Positioning
+Relationship: SPDXRef-Package-qtpositioning CONTAINS SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin
+
+FileName: ./plugins/position/qtposition_nmea.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: b6bf38b5d84030cddda616ab993a156e025ac9d2
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qgeopositioninfosourcefactory_nmea.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qgeopositioninfosourcefactory_nmea.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qiopipe.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qiopipe_p.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/nmea/meta_types/qt6qgeopositioninfosourcefactorynmeaplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/nmea/RelWithDebInfo/QGeoPositionInfoSourceFactoryNmeaPlugin_resource.rc
+
+FileName: ./plugins/position/qtposition_nmead.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug
+FileType: BINARY
+FileChecksum: SHA1: 6a060df9c31086f625454a496839b7a71346480b
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin CONTAINS SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qgeopositioninfosourcefactory_nmea.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qgeopositioninfosourcefactory_nmea.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qiopipe.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/qiopipe_p.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/nmea/meta_types/qt6qgeopositioninfosourcefactorynmeaplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-QGeoPositionInfoSourceFactoryNmeaPlugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/plugins/position/nmea/C:/Users/qt/work/qt/qtpositioning_build/src/plugins/position/nmea/Debug/QGeoPositionInfoSourceFactoryNmeaPlugin_resource.rc
+
+PackageName: PositioningQuick
+SPDXID: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick
+PackageDownloadLocation: git://code.qt.io/qt/qtpositioning.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtpositioning?library_name=PositioningQuick#src/positioningquick
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning-PositioningQuick?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=PositioningQuick#src/positioningquick
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Quick
+Relationship: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml
+Relationship: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick DEPENDS_ON SPDXRef-Package-qtpositioning-qt-module-Positioning
+Relationship: SPDXRef-Package-qtpositioning CONTAINS SPDXRef-Package-qtpositioning-qt-module-PositioningQuick
+
+FileName: ./bin/Qt6PositioningQuick.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 7b452604a4e17f8469dc16d95f6769086850dfcd
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick CONTAINS SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/RelWithDebInfo/PositioningQuick_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioningQuick/qtpositioningquickexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/meta_types/qt6positioningquick_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/positioningquick_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/.qt/rcc/qrc_qmake_QtPositioning.cpp
+
+FileName: ./bin/Qt6PositioningQuickd.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug
+FileType: BINARY
+FileChecksum: SHA1: 9017180068adc1f28e993eb10864ee9cf50914c1
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick CONTAINS SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/Debug/PositioningQuick_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioningQuick/qtpositioningquickexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/meta_types/qt6positioningquick_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/positioningquick_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/.qt/rcc/qrc_qmake_QtPositioning.cpp
+
+FileName: ./lib/Qt6PositioningQuick.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 379dd215f28e82657a244a272990faa62c1e83d2
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick CONTAINS SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/RelWithDebInfo/PositioningQuick_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioningQuick/qtpositioningquickexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/meta_types/qt6positioningquick_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/positioningquick_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/.qt/rcc/qrc_qmake_QtPositioning.cpp
+
+FileName: ./lib/Qt6PositioningQuickd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug
+FileType: BINARY
+FileChecksum: SHA1: 46eaba2ac7e818d71fdd211a62bd8c48e3562585
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-module-PositioningQuick CONTAINS SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/Debug/PositioningQuick_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/include/QtPositioningQuick/qtpositioningquickexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeoaddress.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativegeolocation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepluginparameter.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativeposition.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativepositionsource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qdeclarativesatellitesource.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/locationsingleton.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qquickgeocoordinateanimation_p_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickglobal_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/qpositioningquickmodule.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/meta_types/qt6positioningquick_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/positioningquick_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-PositioningQuick-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/.qt/rcc/qrc_qmake_QtPositioning.cpp
+
+PackageName: positioningquickplugin
+SPDXID: SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin
+PackageDownloadLocation: git://code.qt.io/qt/qtpositioning.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtpositioning?library_name=positioningquickplugin#src/positioningquick
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtpositioning-positioningquickplugin?vcs_url=https://code.qt.io/qt/qtpositioning.git&library_name=positioningquickplugin#src/positioningquick
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtpositioning:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Quick
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin DEPENDS_ON SPDXRef-Package-qtpositioning-qt-module-PositioningQuick
+Relationship: SPDXRef-Package-qtpositioning CONTAINS SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin
+
+FileName: ./qml/QtPositioning/positioningquickplugin.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: eda88b0f46614bd90d0b41ae263300aa56978a6d
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin CONTAINS SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/positioningplugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/RelWithDebInfo/positioningquickplugin_resource.rc
+
+FileName: ./qml/QtPositioning/positioningquickplugind.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-Debug
+FileType: BINARY
+FileChecksum: SHA1: f6137c52a4d86e5a0423f033b1a3acf063ea6476
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtpositioning-qt-plugin-positioningquickplugin CONTAINS SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-Debug
+Relationship: SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/positioningplugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-positioningquickplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtpositioning/src/positioningquick/C:/Users/qt/work/qt/qtpositioning_build/src/positioningquick/Debug/positioningquickplugin_resource.rc
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

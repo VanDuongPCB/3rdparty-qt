@@ -1,0 +1,624 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtlottie-6.8.0
+DocumentNamespace: https://qt.io/spdxdocs/qtlottie-6.8.0
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.27.7, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2024-10-02T14:35:13Z
+ExternalDocumentRef: DocumentRef-qtbase https://qt.io/spdxdocs/qtbase-6.8.0 SHA1: 213493d87d45d3d7f458102ff31588b943cce995;
+ExternalDocumentRef: DocumentRef-qtdeclarative https://qt.io/spdxdocs/qtdeclarative-6.8.0 SHA1: 46a6b0a462a24d68afa0ef592174bef8ccf3fc68
+
+PackageName: MSVC
+SPDXID: SPDXRef-compiler
+PackageVersion: 19.39.33520.0
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSupplier: Organization: Anonymous
+FilesAnalyzed: false
+PackageSummary: <text>The compiler as identified by CMake, running on Windows (AMD64)</text>
+PrimaryPackagePurpose: APPLICATION
+Relationship: SPDXRef-compiler BUILD_DEPENDENCY_OF SPDXRef-Package-qtlottie
+RelationshipComment: <text>SPDXRef-Package-qtlottie is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0</text>
+
+PackageName: qtlottie
+SPDXID: SPDXRef-Package-qtlottie
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlottie@6.8.0
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtlottie.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) 2024 The Qt Company Ltd.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)</text>
+PackageVerificationCode: 1186fbb7680717c6892d58f525baa72725b0da96
+BuiltDate: 2024-10-02T14:35:13Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtlottie
+
+PackageName: BodymovinPrivate
+SPDXID: SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate
+PackageDownloadLocation: git://code.qt.io/qt/qtlottie.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtlottie?library_name=BodymovinPrivate#src/bodymovin
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlottie-BodymovinPrivate?vcs_url=https://code.qt.io/qt/qtlottie.git&library_name=BodymovinPrivate#src/bodymovin
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtlottie:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui
+Relationship: SPDXRef-Package-qtlottie CONTAINS SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate
+
+FileName: ./bin/Qt6Bodymovin.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: e5789a02cc914543707537691ee0206fa1ae7f61
+LicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate CONTAINS SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/C:/Users/qt/work/qt/qtlottie_build/src/bodymovin/RelWithDebInfo/BodymovinPrivate_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/beziereasing.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/beziereasing_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbasictransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbasictransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmconstants_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmellipse.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmellipse_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfill.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfill_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfilleffect.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfilleffect_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfreeformshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfreeformshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgfill.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgfill_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgroup.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgroup_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimage.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimage_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimagelayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimagelayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmlayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmlayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmpathtrimmer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmpathtrimmer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmproperty_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrect.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrect_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeater.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeater_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeatertransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeatertransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmround.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmround_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapelayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapelayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapetransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapetransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmspatialproperty_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmstroke.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmstroke_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmtrimpath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmtrimpath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/lottierenderer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/lottierenderer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/trimpath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/trimpath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/C:/Users/qt/work/qt/qtlottie_build/src/bodymovin/meta_types/qt6bodymovinprivate_metatypes.json.gen
+
+FileName: ./bin/Qt6Bodymovind.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug
+FileType: BINARY
+FileChecksum: SHA1: 1c4f64d340907358efb9e68fd2f07e74bc091d87
+LicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate CONTAINS SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/C:/Users/qt/work/qt/qtlottie_build/src/bodymovin/Debug/BodymovinPrivate_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/beziereasing.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/beziereasing_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbasictransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbasictransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmconstants_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmellipse.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmellipse_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfill.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfill_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfilleffect.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfilleffect_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfreeformshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfreeformshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgfill.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgfill_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgroup.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgroup_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimage.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimage_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimagelayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimagelayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmlayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmlayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmpathtrimmer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmpathtrimmer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmproperty_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrect.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrect_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeater.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeater_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeatertransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeatertransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmround.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmround_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapelayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapelayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapetransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapetransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmspatialproperty_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmstroke.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmstroke_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmtrimpath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmtrimpath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/lottierenderer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/lottierenderer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/trimpath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/trimpath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/C:/Users/qt/work/qt/qtlottie_build/src/bodymovin/meta_types/qt6bodymovinprivate_metatypes.json.gen
+
+FileName: ./lib/Qt6Bodymovin.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 72c125931036ebcaecd021ba62bf8167bf5619f9
+LicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate CONTAINS SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/C:/Users/qt/work/qt/qtlottie_build/src/bodymovin/RelWithDebInfo/BodymovinPrivate_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/beziereasing.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/beziereasing_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbasictransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbasictransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmconstants_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmellipse.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmellipse_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfill.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfill_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfilleffect.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfilleffect_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfreeformshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfreeformshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgfill.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgfill_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgroup.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgroup_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimage.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimage_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimagelayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimagelayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmlayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmlayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmpathtrimmer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmpathtrimmer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmproperty_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrect.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrect_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeater.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeater_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeatertransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeatertransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmround.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmround_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapelayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapelayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapetransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapetransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmspatialproperty_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmstroke.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmstroke_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmtrimpath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmtrimpath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/lottierenderer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/lottierenderer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/trimpath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/trimpath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/C:/Users/qt/work/qt/qtlottie_build/src/bodymovin/meta_types/qt6bodymovinprivate_metatypes.json.gen
+
+FileName: ./lib/Qt6Bodymovind.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug
+FileType: BINARY
+FileChecksum: SHA1: bbcebc7f2109533fb59e2517cc9bc96fa2436269
+LicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate CONTAINS SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/C:/Users/qt/work/qt/qtlottie_build/src/bodymovin/Debug/BodymovinPrivate_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/beziereasing.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/beziereasing_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbase.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbase_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbasictransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmbasictransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmconstants_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmellipse.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmellipse_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfill.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfill_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfilleffect.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfilleffect_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfreeformshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmfreeformshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgfill.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgfill_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgroup.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmgroup_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimage.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimage_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimagelayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmimagelayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmlayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmlayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmpathtrimmer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmpathtrimmer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmproperty_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrect.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrect_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeater.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeater_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeatertransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmrepeatertransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmround.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmround_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshape.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshape_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapelayer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapelayer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapetransform.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmshapetransform_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmspatialproperty_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmstroke.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmstroke_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmtrimpath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/bmtrimpath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/lottierenderer.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/lottierenderer_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/trimpath.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/trimpath_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-BodymovinPrivate-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/bodymovin/C:/Users/qt/work/qt/qtlottie_build/src/bodymovin/meta_types/qt6bodymovinprivate_metatypes.json.gen
+
+PackageName: lottieqtplugin
+SPDXID: SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin
+PackageDownloadLocation: git://code.qt.io/qt/qtlottie.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtlottie?library_name=lottieqtplugin#src/imports
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtlottie-lottieqtplugin?vcs_url=https://code.qt.io/qt/qtlottie.git&library_name=lottieqtplugin#src/imports
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtlottie:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui
+Relationship: SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml
+Relationship: SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Quick
+Relationship: SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal
+Relationship: SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin DEPENDS_ON SPDXRef-Package-qtlottie-qt-module-BodymovinPrivate
+Relationship: SPDXRef-Package-qtlottie CONTAINS SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin
+
+FileName: ./qml/Qt/labs/lottieqt/lottieqtplugin.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: df6890723f36dd2ffd685742f4e85ac80c899595
+LicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin CONTAINS SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/lottieanimation.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/lottieanimation.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/rasterrenderer/batchrenderer.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/rasterrenderer/batchrenderer.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/rasterrenderer/lottierasterrenderer.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/rasterrenderer/lottierasterrenderer.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/meta_types/qt6lottieqtplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/lottieqtplugin_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/.qt/rcc/qrc_qmake_Qt_labs_lottieqt.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/lottieqtplugin_BodymovinPlugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/RelWithDebInfo/lottieqtplugin_resource.rc
+
+FileName: ./qml/Qt/labs/lottieqt/lottieqtplugind.dll
+SPDXID: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug
+FileType: BINARY
+FileChecksum: SHA1: e5bff094d27dce82ec1cd44f2156fad0f61de5fd
+LicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtlottie-qt-plugin-lottieqtplugin CONTAINS SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/lottieanimation.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/lottieanimation.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/rasterrenderer/batchrenderer.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/rasterrenderer/batchrenderer.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/rasterrenderer/lottierasterrenderer.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/rasterrenderer/lottierasterrenderer.h
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/meta_types/qt6lottieqtplugin_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/lottieqtplugin_qmltyperegistrations.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/.qt/rcc/qrc_qmake_Qt_labs_lottieqt.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/lottieqtplugin_BodymovinPlugin.cpp
+Relationship: SPDXRef-PackagedFile-qt-plugin-lottieqtplugin-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtlottie/src/imports/C:/Users/qt/work/qt/qtlottie_build/src/imports/Debug/lottieqtplugin_resource.rc
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

@@ -1,0 +1,15 @@
+QT.multimedia_private.VERSION = 6.8.0
+QT.multimedia_private.name = QtMultimedia
+QT.multimedia_private.module =
+QT.multimedia_private.libs = $$QT_MODULE_LIB_BASE
+QT.multimedia_private.includes = $$QT_MODULE_INCLUDE_BASE/QtMultimedia/6.8.0 $$QT_MODULE_INCLUDE_BASE/QtMultimedia/6.8.0/QtMultimedia
+QT.multimedia_private.frameworks = 
+QT.multimedia_private.depends = core_private gui_private multimedia
+QT.multimedia_private.uses = 
+QT.multimedia_private.module_config = v2 internal_module
+QT.multimedia_private.enabled_features = ffmpeg evr wmsdk wmf spatialaudio spatialaudio_quick3d
+QT.multimedia_private.disabled_features = pipewire alsa avfoundation coreaudio videotoolbox gstreamer gstreamer_photography gstreamer_gl gstreamer_gl_wayland gstreamer_gl_egl gstreamer_gl_x11 gpu_vivante linux_v4l linux_dmabuf vaapi mmrenderer pulseaudio opensles wasm
+QMAKE_LIBS_WMF = -L"C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22621.0/um/x64" -lpropsys -lMfcore -lMfplat -lmfuuid -lMf -lOleAut32 -lOle32 -lmsdmo -lUuid -ldmoguids -lamstrmid -lstrmiids
+QMAKE_LIBS_FFMPEG = -lswscale -lswscale -lswresample -lswresample -lavutil -lavutil -lavformat -lavformat -lavcodec -lavcodec
+QMAKE_LIBDIR_FFMPEG = C:/FFmpeg-n7.0.2/build/msvc/installed/bin
+QMAKE_INCDIR_FFMPEG = C:/FFmpeg-n7.0.2/build/msvc/installed/include

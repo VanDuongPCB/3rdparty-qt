@@ -1,0 +1,3702 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T14:32:30Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtdeclarative",
+            "spdxDocument": "https://qt.io/spdxdocs/qtdeclarative-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "46a6b0a462a24d68afa0ef592174bef8ccf3fc68"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtsensors-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtsensors-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsensors",
+            "builtDate": "2024-10-02T14:32:30Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsensors.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsensors@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtsensors",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "00e8eeaea54c3e775ba9f06a8822aaf6b46e2e02"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsensors.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsensors?library_name=Sensors#src/sensors",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsensors-Sensors?vcs_url=https://code.qt.io/qt/qtsensors.git&library_name=Sensors#src/sensors",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsensors:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "Sensors",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsensors-qt-plugin-genericSensorPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsensors.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsensors?library_name=genericSensorPlugin#src/plugins/sensors/generic",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsensors-genericSensorPlugin?vcs_url=https://code.qt.io/qt/qtsensors.git&library_name=genericSensorPlugin#src/plugins/sensors/generic",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsensors:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "genericSensorPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsensors-qt-plugin-WinRtSensorPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsensors.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsensors?library_name=WinRtSensorPlugin#src/plugins/sensors/winrt",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsensors-WinRtSensorPlugin?vcs_url=https://code.qt.io/qt/qtsensors.git&library_name=WinRtSensorPlugin#src/plugins/sensors/winrt",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsensors:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "WinRtSensorPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsensors.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsensors?library_name=SensorsQuick#src/sensorsquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsensors-SensorsQuick?vcs_url=https://code.qt.io/qt/qtsensors.git&library_name=SensorsQuick#src/sensorsquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsensors:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "SensorsQuick",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsensors-qt-plugin-SensorsQuickplugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsensors.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsensors?library_name=SensorsQuickplugin#src/sensorsquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsensors-SensorsQuickplugin?vcs_url=https://code.qt.io/qt/qtsensors.git&library_name=SensorsQuickplugin#src/sensorsquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsensors:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "SensorsQuickplugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "acd53652a4d6beda5c3363a3e5ae2047d7008e21"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6Sensors.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "aa429c5157e9732096c7db11af8d6dfa9a9f5f64"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6Sensorsd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d8a50a44edfd8a5f71ef9afbefe78093961d874a"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6Sensors.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7502732e815d1e14021868a1c9f27bc640224bae"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6Sensorsd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3e0000a6dd18999282bdb3b7ba829a69eece557a"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/sensors/qtsensors_generic.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "274d7ec3e0a861ea5a2ecabfdb1698b205169ffe"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/sensors/qtsensors_genericd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "dcfd88a3dd7943a1a4720578cc86b22ed9ea37e0"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/sensors/qtsensors_winrt.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "261e10a032c218b3abce04cc5bc0cf2fdcf84ab6"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/sensors/qtsensors_winrtd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "eade55b7cb7302b4f2e40f1990c6fd245351eb6e"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6SensorsQuick.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ee134b12ce8d772be129ae05ba61a655e65bcfea"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6SensorsQuickd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "fbe405380023999534c2f733332ab4f1da97fc78"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6SensorsQuick.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "aec362f39196e18346c092f3d00aedc44244d47e"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6SensorsQuickd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "be48ec5991c38a24e5972add90dbbfc26241665c"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtSensors/sensorsquickplugin.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a8319004ae04377ddb92ffc044cd4af9c5b86287"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtSensors/sensorsquickplugind.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtsensors is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/RelWithDebInfo/Sensors_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/include/QtSensors/qtsensorsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensormanager.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensormanager.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorplugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorsglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/sensorlog_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/qtsensors-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/qtsensors-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/meta_types/qt6sensors_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/Debug/Sensors_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/include/QtSensors/qtsensorsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensormanager.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensormanager.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorplugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorsglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/sensorlog_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/qtsensors-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/qtsensors-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/meta_types/qt6sensors_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/RelWithDebInfo/Sensors_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/include/QtSensors/qtsensorsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensormanager.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensormanager.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorplugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorsglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/sensorlog_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/qtsensors-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/qtsensors-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/meta_types/qt6sensors_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/Debug/Sensors_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/include/QtSensors/qtsensorsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorbackend.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorbackend.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensormanager.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensormanager.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorplugin.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensorsglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/sensorlog_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qambienttemperaturesensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qmagnetometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qirproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtapsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qtiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qpressuresensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qhumiditysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/qlidsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/qtsensors-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/qtsensors-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Sensors-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensors/C:/Users/qt/work/qt/qtsensors_build/src/sensors/meta_types/qt6sensors_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-genericSensorPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-genericSensorPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-genericSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors-qt-plugin-genericSensorPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-genericSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-genericSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericalssensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericalssensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericorientationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/generictiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/generictiltsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericrotationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/C:/Users/qt/work/qt/qtsensors_build/src/plugins/sensors/generic/meta_types/qt6genericsensorplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/C:/Users/qt/work/qt/qtsensors_build/src/plugins/sensors/generic/RelWithDebInfo/genericSensorPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-genericSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-genericSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericalssensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericalssensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericorientationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/generictiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/generictiltsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/genericrotationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/C:/Users/qt/work/qt/qtsensors_build/src/plugins/sensors/generic/meta_types/qt6genericsensorplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-genericSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/generic/C:/Users/qt/work/qt/qtsensors_build/src/plugins/sensors/generic/Debug/genericSensorPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-WinRtSensorPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-WinRtSensorPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-WinRtSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors-qt-plugin-WinRtSensorPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-WinRtSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-WinRtSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtaccelerometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtambientlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtcommon.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtcommon.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtcompass.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtgyroscope.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtorientationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtrotationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/C:/Users/qt/work/qt/qtsensors_build/src/plugins/sensors/winrt/meta_types/qt6winrtsensorplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/C:/Users/qt/work/qt/qtsensors_build/src/plugins/sensors/winrt/RelWithDebInfo/WinRtSensorPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-WinRtSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-WinRtSensorPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtaccelerometer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtambientlightsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtcommon.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtcommon.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtcompass.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtgyroscope.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtorientationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/winrtrotationsensor.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/C:/Users/qt/work/qt/qtsensors_build/src/plugins/sensors/winrt/meta_types/qt6winrtsensorplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WinRtSensorPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/plugins/sensors/winrt/C:/Users/qt/work/qt/qtsensors_build/src/plugins/sensors/winrt/Debug/WinRtSensorPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors-qt-module-Sensors",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/RelWithDebInfo/SensorsQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/include/QtSensorsQuick/qtsensorsquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlaccelerometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambientlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambienttemperaturesensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambienttemperaturesensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlcompass_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlgyroscope_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlhumiditysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlhumiditysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlirproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlirproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllidsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllidsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlmagnetometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlmagnetometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlorientationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlpressuresensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlpressuresensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlrotationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorglobal.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorrange.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorrange_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltapsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltapsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltiltsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qsensorsquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/meta_types/qt6sensorsquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/sensorsquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/.qt/rcc/qrc_qmake_QtSensors.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/Debug/SensorsQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/include/QtSensorsQuick/qtsensorsquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlaccelerometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambientlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambienttemperaturesensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambienttemperaturesensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlcompass_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlgyroscope_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlhumiditysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlhumiditysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlirproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlirproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllidsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllidsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlmagnetometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlmagnetometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlorientationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlpressuresensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlpressuresensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlrotationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorglobal.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorrange.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorrange_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltapsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltapsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltiltsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qsensorsquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/meta_types/qt6sensorsquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/sensorsquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/.qt/rcc/qrc_qmake_QtSensors.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/RelWithDebInfo/SensorsQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/include/QtSensorsQuick/qtsensorsquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlaccelerometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambientlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambienttemperaturesensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambienttemperaturesensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlcompass_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlgyroscope_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlhumiditysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlhumiditysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlirproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlirproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllidsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllidsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlmagnetometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlmagnetometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlorientationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlpressuresensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlpressuresensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlrotationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorglobal.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorrange.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorrange_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltapsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltapsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltiltsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qsensorsquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/meta_types/qt6sensorsquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/sensorsquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/.qt/rcc/qrc_qmake_QtSensors.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-module-SensorsQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/Debug/SensorsQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/include/QtSensorsQuick/qtsensorsquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlaccelerometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlaccelerometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambientlightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambientlightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambienttemperaturesensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlambienttemperaturesensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlcompass.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlcompass_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlgyroscope.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlgyroscope_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlhumiditysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlhumiditysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlirproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlirproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllidsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllidsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllightsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmllightsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlmagnetometer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlmagnetometer_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlorientationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlorientationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlpressuresensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlpressuresensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlproximitysensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlproximitysensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlrotationsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlrotationsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorglobal.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorrange.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmlsensorrange_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltapsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltapsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltiltsensor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qmltiltsensor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/qsensorsquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/meta_types/qt6sensorsquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/sensorsquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SensorsQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/.qt/rcc/qrc_qmake_QtSensors.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-SensorsQuickplugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors",
+            "relatedSpdxElement": "SPDXRef-Package-qtsensors-qt-plugin-SensorsQuickplugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-SensorsQuickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-SensorsQuickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/SensorsQuickplugin_QtSensorsPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/RelWithDebInfo/SensorsQuickplugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-SensorsQuickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsensors-qt-plugin-SensorsQuickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/SensorsQuickplugin_QtSensorsPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-SensorsQuickplugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtsensors/src/sensorsquick/C:/Users/qt/work/qt/qtsensors_build/src/sensorsquick/Debug/SensorsQuickplugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

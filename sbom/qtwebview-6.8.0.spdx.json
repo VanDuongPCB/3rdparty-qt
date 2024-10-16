@@ -1,0 +1,1487 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T20:21:27Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtwebengine",
+            "spdxDocument": "https://qt.io/spdxdocs/qtwebengine-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "be9b3f3a646b2efa53e65360d553da7aca70f519"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtdeclarative",
+            "spdxDocument": "https://qt.io/spdxdocs/qtdeclarative-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "46a6b0a462a24d68afa0ef592174bef8ccf3fc68"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtwebview-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtwebview-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebview",
+            "builtDate": "2024-10-02T20:21:27Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebview.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebview@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtwebview",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "68c9fed2c4aedbfc6e18dde86ec46feaed0c3f4c"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebview.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtwebview?library_name=WebView#src/webview",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebview-WebView?vcs_url=https://code.qt.io/qt/qtwebview.git&library_name=WebView#src/webview",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtwebview:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "WebView",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebview.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtwebview?library_name=WebViewQuick#src/quick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebview-WebViewQuick?vcs_url=https://code.qt.io/qt/qtwebview.git&library_name=WebViewQuick#src/quick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtwebview:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "WebViewQuick",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebview.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtwebview?library_name=qtwebviewquickplugin#src/quick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebview-qtwebviewquickplugin?vcs_url=https://code.qt.io/qt/qtwebview.git&library_name=qtwebviewquickplugin#src/quick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtwebview:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "qtwebviewquickplugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebview.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtwebview?library_name=QWebEngineWebViewPlugin#src/plugins/webengine",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebview-QWebEngineWebViewPlugin?vcs_url=https://code.qt.io/qt/qtwebview.git&library_name=QWebEngineWebViewPlugin#src/plugins/webengine",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtwebview:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QWebEngineWebViewPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "56d82c83965dc34076587920355c06e3aab564ac"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebView.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "06a06738d49685202eb363e273165cdd27d24237"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebViewd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a4149386ca9f3240070cbfa918fc35fb70e532c2"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebView.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "178187e018c178169ec09d1b2769c1c97d98e516"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebViewd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "cfa90a595c96916c9a621ef3aa98a4d5062da0eb"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebViewQuick.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "37f25d444a35c421319dfd4cba03f7ec94a9ce64"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebViewQuickd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7bcb60f6c91fc351bd6ec6053838fe61303e3a51"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebViewQuick.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7325ae3c830bbbe7f0c502ef9ec66f4a9f170a14"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebViewQuickd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ca67d17bd2494caff053c741b51094ef1799702f"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtWebView/qtwebviewquickplugin.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4c61aec0363b1c35bec4494f6eb5e5cea0b7916a"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtWebView/qtwebviewquickplugind.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "15c37199715b70b66be728f48e2824e91011a10d"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/webview/qtwebview_webengine.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "5dc012c7e53700aa99f571015e5fb871fdff69bc"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/webview/qtwebview_webengined.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtwebview is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebview",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebview",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "DocumentRef-qtwebengine:SPDXRef-Package-qtwebengine-qt-module-WebEngineQuick",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/RelWithDebInfo/WebView_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qabstractwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qnativeviewcontroller_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewinterface_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/meta_types/qt6webview_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/Debug/WebView_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qabstractwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qnativeviewcontroller_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewinterface_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/meta_types/qt6webview_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/RelWithDebInfo/WebView_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qabstractwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qnativeviewcontroller_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewinterface_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/meta_types/qt6webview_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/Debug/WebView_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qabstractwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qnativeviewcontroller_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qtwebviewfunctions.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebview_global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewfactory_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewinterface_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewloadrequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/qwebviewplugin_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebView-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/webview/C:/Users/qt/work/qt/qtwebview_build/src/webview/meta_types/qt6webview_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Quick",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-QmlModels",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-OpenGL",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/RelWithDebInfo/WebViewQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/include/QtWebViewQuick/qtwebviewquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qtwebviewquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/meta_types/qt6webviewquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/webviewquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/.qt/rcc/qrc_qmake_QtWebView.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/Debug/WebViewQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/include/QtWebViewQuick/qtwebviewquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qtwebviewquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/meta_types/qt6webviewquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/webviewquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/.qt/rcc/qrc_qmake_QtWebView.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/RelWithDebInfo/WebViewQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/include/QtWebViewQuick/qtwebviewquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qtwebviewquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/meta_types/qt6webviewquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/webviewquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/.qt/rcc/qrc_qmake_QtWebView.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/Debug/WebViewQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/include/QtWebViewQuick/qtwebviewquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickviewcontroller_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewloadrequest_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qtwebviewquickglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/qquickwebviewsettings_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/meta_types/qt6webviewquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/webviewquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebViewQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/.qt/rcc/qrc_qmake_QtWebView.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/qtwebviewquickplugin_QWebViewQuickPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/RelWithDebInfo/qtwebviewquickplugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-qtwebviewquickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/qtwebviewquickplugin_QWebViewQuickPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtwebviewquickplugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/quick/C:/Users/qt/work/qt/qtwebview_build/src/quick/Debug/qtwebviewquickplugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "DocumentRef-qtwebengine:SPDXRef-Package-qtwebengine-qt-module-WebEngineCore",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "DocumentRef-qtwebengine:SPDXRef-Package-qtwebengine-qt-module-WebEngineQuick",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebview-qt-module-WebView",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebview-qt-module-WebViewQuick",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebviewplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/C:/Users/qt/work/qt/qtwebview_build/src/plugins/webengine/meta_types/qt6qwebenginewebviewplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/C:/Users/qt/work/qt/qtwebview_build/src/plugins/webengine/RelWithDebInfo/QWebEngineWebViewPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebview-qt-plugin-QWebEngineWebViewPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebview.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebview_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/qwebenginewebviewplugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/C:/Users/qt/work/qt/qtwebview_build/src/plugins/webengine/meta_types/qt6qwebenginewebviewplugin_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QWebEngineWebViewPlugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebview/src/plugins/webengine/C:/Users/qt/work/qt/qtwebview_build/src/plugins/webengine/Debug/QWebEngineWebViewPlugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

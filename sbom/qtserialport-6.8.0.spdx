@@ -1,0 +1,242 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtserialport-6.8.0
+DocumentNamespace: https://qt.io/spdxdocs/qtserialport-6.8.0
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.27.7, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2024-10-02T08:42:00Z
+ExternalDocumentRef: DocumentRef-qtbase https://qt.io/spdxdocs/qtbase-6.8.0 SHA1: 213493d87d45d3d7f458102ff31588b943cce995
+
+PackageName: MSVC
+SPDXID: SPDXRef-compiler
+PackageVersion: 19.39.33520.0
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSupplier: Organization: Anonymous
+FilesAnalyzed: false
+PackageSummary: <text>The compiler as identified by CMake, running on Windows (AMD64)</text>
+PrimaryPackagePurpose: APPLICATION
+Relationship: SPDXRef-compiler BUILD_DEPENDENCY_OF SPDXRef-Package-qtserialport
+RelationshipComment: <text>SPDXRef-Package-qtserialport is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0</text>
+
+PackageName: qtserialport
+SPDXID: SPDXRef-Package-qtserialport
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtserialport@6.8.0
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qtserialport.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) 2024 The Qt Company Ltd.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)</text>
+PackageVerificationCode: 5aa40c43ff5bcba50662a1661db4f98e1e9f097b
+BuiltDate: 2024-10-02T08:42:00Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qtserialport
+
+PackageName: SerialPort
+SPDXID: SPDXRef-Package-qtserialport-qt-module-SerialPort
+PackageDownloadLocation: git://code.qt.io/qt/qtserialport.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qtserialport?library_name=SerialPort#src/serialport
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qtserialport-SerialPort?vcs_url=https://code.qt.io/qt/qtserialport.git&library_name=SerialPort#src/serialport
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: LIBRARY
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qtserialport:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal
+Relationship: SPDXRef-Package-qtserialport CONTAINS SPDXRef-Package-qtserialport-qt-module-SerialPort
+
+FileName: ./bin/Qt6SerialPort.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: c837168d5eac2cfb9edc4459473d26bbbdb1875b
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort CONTAINS SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/RelWithDebInfo/SerialPort_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/include/QtSerialPort/qtserialportexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/qtserialport-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/qtserialport-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/meta_types/qt6serialport_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qwinoverlappedionotifier.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qwinoverlappedionotifier_p.h
+
+FileName: ./bin/Qt6SerialPortd.dll
+SPDXID: SPDXRef-PackagedFile-qt-module-SerialPort-Debug
+FileType: BINARY
+FileChecksum: SHA1: 73efb3f207270823f025181b01562cb22f4a2447
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort CONTAINS SPDXRef-PackagedFile-qt-module-SerialPort-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/Debug/SerialPort_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/include/QtSerialPort/qtserialportexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/qtserialport-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/qtserialport-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/meta_types/qt6serialport_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qwinoverlappedionotifier.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qwinoverlappedionotifier_p.h
+
+FileName: ./lib/Qt6SerialPort.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 7ad1f43a46e81630b262fae421c8c1f68a237d92
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort CONTAINS SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/RelWithDebInfo/SerialPort_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/include/QtSerialPort/qtserialportexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/qtserialport-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/qtserialport-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/meta_types/qt6serialport_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qwinoverlappedionotifier.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qwinoverlappedionotifier_p.h
+
+FileName: ./lib/Qt6SerialPortd.lib
+SPDXID: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug
+FileType: BINARY
+FileChecksum: SHA1: 63fbadce7e023dc60087408a48e3f02d9341579d
+LicenseConcluded: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qtserialport-qt-module-SerialPort CONTAINS SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/Debug/SerialPort_resource.rc
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/include/QtSerialPort/qtserialportexports.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportglobal.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/removed_api.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/qtserialport-config.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/qtserialport-config_p.h
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/C:/Users/qt/work/qt/qtserialport_build/src/serialport/meta_types/qt6serialport_metatypes.json.gen
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialport_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qserialportinfo_win.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qwinoverlappedionotifier.cpp
+Relationship: SPDXRef-PackagedFile-qt-module-SerialPort-ImportLibrary-Debug GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtserialport/src/serialport/qwinoverlappedionotifier_p.h
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>

@@ -1,0 +1,1569 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T08:42:57Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtactiveqt-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtactiveqt-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtactiveqt",
+            "builtDate": "2024-10-02T08:42:57Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtactiveqt.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtactiveqt@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtactiveqt",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "f5fb1cef7a141cdc607c9f730d0ac4789d583f19"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtactiveqt.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtactiveqt?library_name=AxBasePrivate#src/activeqt/axbase",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtactiveqt-AxBasePrivate?vcs_url=https://code.qt.io/qt/qtactiveqt.git&library_name=AxBasePrivate#src/activeqt/axbase",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtactiveqt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "name": "AxBasePrivate",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtactiveqt.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtactiveqt?library_name=AxServer#src/activeqt/control",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtactiveqt-AxServer?vcs_url=https://code.qt.io/qt/qtactiveqt.git&library_name=AxServer#src/activeqt/control",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtactiveqt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "name": "AxServer",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtactiveqt.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtactiveqt?library_name=AxContainer#src/activeqt/container",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtactiveqt-AxContainer?vcs_url=https://code.qt.io/qt/qtactiveqt.git&library_name=AxContainer#src/activeqt/container",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtactiveqt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "name": "AxContainer",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtactiveqt-qt-module-ActiveQt",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtactiveqt.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtactiveqt?library_name=ActiveQt#src/activeqt",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtactiveqt-ActiveQt?vcs_url=https://code.qt.io/qt/qtactiveqt.git&library_name=ActiveQt#src/activeqt",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtactiveqt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "ActiveQt",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtactiveqt-qt-tool-idc",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtactiveqt.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtactiveqt?library_name=idc#src/tools/idc",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtactiveqt-idc?vcs_url=https://code.qt.io/qt/qtactiveqt.git&library_name=idc#src/tools/idc",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtactiveqt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "name": "idc",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtactiveqt.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtactiveqt?library_name=dumpdoc#tools/dumpdoc",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtactiveqt-dumpdoc?vcs_url=https://code.qt.io/qt/qtactiveqt.git&library_name=dumpdoc#tools/dumpdoc",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtactiveqt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "name": "dumpdoc",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtactiveqt.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtactiveqt?library_name=dumpcpp#tools/dumpcpp",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtactiveqt-dumpcpp?vcs_url=https://code.qt.io/qt/qtactiveqt.git&library_name=dumpcpp#tools/dumpcpp",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtactiveqt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "name": "dumpcpp",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtactiveqt.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtactiveqt?library_name=testcon#tools/testcon",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtactiveqt-testcon?vcs_url=https://code.qt.io/qt/qtactiveqt.git&library_name=testcon#tools/testcon",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtactiveqt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "name": "testcon",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "decd480eaed6b861cdff64e3034fdd83a420095b"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6AxBase.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "40541706eb206181932cce0240fe4ceeb2d1f906"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6AxBased.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "bee9203b4b47e1a36a6d1f6e74f485a0a6a986ec"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6AxServer.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "34c59f066c5f073d31b9dd22f3fc6375f2874d9c"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6AxServerd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2aa7edf8fdd320d28ed443b8e99755563e7d9331"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6AxContainer.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "70b32e25f60e90dd849456f985104b4eacdc755f"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6AxContainerd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR BSD-3-Clause",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-tool-idc-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "39c2c67c927abc31241810cedf3ff0b172ae5ab2"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/idc.exe",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-tool-dumpdoc-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b69c60f2fe2e07340702834039d301dd2c713e2a"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/dumpdoc.exe",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-tool-dumpcpp-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "85fdb3b5379ef163c2c0c0ea35c767fbb8bbc3d2"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/dumpcpp.exe",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ba3ae0a5a21c1747b2aa16120f0f59ae61a1aef9"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/testcon.exe",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtactiveqt is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Widgets",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qaxtypefunctions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qaxtypefunctions_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qaxutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qaxutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qbstr_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/C:/Users/qt/work/qt/qtactiveqt_build/src/activeqt/axbase/meta_types/qt6axbaseprivate_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qaxtypefunctions.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qaxtypefunctions_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qaxutils.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qaxutils_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/qbstr_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxBasePrivate-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/axbase/C:/Users/qt/work/qt/qtactiveqt_build/src/activeqt/axbase/meta_types/qt6axbaseprivate_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Widgets",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/../shared/qaxtypes.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/../shared/qaxtypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxaggregated.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxaggregated.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxbindable.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxbindable.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxfactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxmain.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxserverbase.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxserverdll.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxservermain.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qclassfactory_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/C:/Users/qt/work/qt/qtactiveqt_build/src/activeqt/control/meta_types/qt6axserver_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/../shared/qaxtypes.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/../shared/qaxtypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxaggregated.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxaggregated.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxbindable.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxbindable.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxfactory.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxfactory.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxmain.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxserver.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxserverbase.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxserverdll.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qaxservermain.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/qclassfactory_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxServer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/control/C:/Users/qt/work/qt/qtactiveqt_build/src/activeqt/control/meta_types/qt6axserver_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Widgets",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-AxBasePrivate",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/../control/qaxaggregated.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/../shared/qaxtypes.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/../shared/qaxtypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxbase.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxbase.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxbase_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxdump.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxobject.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxobject.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxobject_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxobjectinterface.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxscript.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxscript.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxscriptwrapper.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxselect.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxselect.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxselect.ui",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxwidget.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxwidget.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxwidget_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/C:/Users/qt/work/qt/qtactiveqt_build/src/activeqt/container/meta_types/qt6axcontainer_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/../control/qaxaggregated.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/../shared/qaxtypes.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/../shared/qaxtypes_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxbase.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxbase.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxbase_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxdump.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxobject.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxobject.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxobject_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxobjectinterface.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxscript.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxscript.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxscriptwrapper.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxselect.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxselect.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxselect.ui",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxwidget.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxwidget.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/qaxwidget_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-AxContainer-Debug",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/activeqt/container/C:/Users/qt/work/qt/qtactiveqt_build/src/activeqt/container/meta_types/qt6axcontainer_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-ActiveQt",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-idc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformToolInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-idc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-idc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-tool-idc",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-idc",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-tool-idc-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-idc",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-tool-idc-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-idc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/tools/idc/C:/Users/qt/work/qt/qtactiveqt_build/src/tools/idc/RelWithDebInfo/idc_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-idc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/tools/idc/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-idc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/src/tools/idc/C:/Users/qt/work/qt/qtactiveqt_build/src/tools/idc/idc_longpath.manifest",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Widgets",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformToolInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-tool-dumpdoc-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpdoc",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-tool-dumpdoc-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-dumpdoc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/dumpdoc/C:/Users/qt/work/qt/qtactiveqt_build/tools/dumpdoc/RelWithDebInfo/dumpdoc_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-dumpdoc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/dumpdoc/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-dumpdoc-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/dumpdoc/C:/Users/qt/work/qt/qtactiveqt_build/tools/dumpdoc/dumpdoc_longpath.manifest",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Widgets",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformToolInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-tool-dumpcpp-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-tool-dumpcpp",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-tool-dumpcpp-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-dumpcpp-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/dumpcpp/C:/Users/qt/work/qt/qtactiveqt_build/tools/dumpcpp/RelWithDebInfo/dumpcpp_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-dumpcpp-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/dumpcpp/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-dumpcpp-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/dumpcpp/moc.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-dumpcpp-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/dumpcpp/moc.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-tool-dumpcpp-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/dumpcpp/C:/Users/qt/work/qt/qtactiveqt_build/tools/dumpcpp/dumpcpp_longpath.manifest",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PrintSupport",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Widgets",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformAppInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-AxContainer",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-module-AxServer",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt",
+            "relatedSpdxElement": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtactiveqt-qt-app-testcon",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/ambientproperties.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/ambientproperties.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/ambientproperties.ui",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/changeproperties.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/changeproperties.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/changeproperties.ui",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/controlinfo.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/controlinfo.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/controlinfo.ui",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/docuwindow.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/docuwindow.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/invokemethod.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/invokemethod.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/invokemethod.ui",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/mainwindow.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/mainwindow.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/mainwindow.ui",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/sandboxing.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/sandboxing.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/C:/Users/qt/work/qt/qtactiveqt_build/tools/testcon/.qt/rcc/qrc_testcon.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-app-testcon-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtactiveqt/tools/testcon/C:/Users/qt/work/qt/qtactiveqt_build/tools/testcon/RelWithDebInfo/testcon_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

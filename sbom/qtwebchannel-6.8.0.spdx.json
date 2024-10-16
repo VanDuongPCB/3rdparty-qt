@@ -1,0 +1,1101 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T15:15:15Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "213493d87d45d3d7f458102ff31588b943cce995"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtdeclarative",
+            "spdxDocument": "https://qt.io/spdxdocs/qtdeclarative-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "46a6b0a462a24d68afa0ef592174bef8ccf3fc68"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtwebchannel-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtwebchannel-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "MSVC",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Windows (AMD64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "19.39.33520.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebchannel",
+            "builtDate": "2024-10-02T15:15:15Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebchannel.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebchannel@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtwebchannel",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "f0ed398b372723e4fd1a204459d1f4e146eee05d"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebchannel.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtwebchannel?library_name=WebChannel#src/webchannel",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebchannel-WebChannel?vcs_url=https://code.qt.io/qt/qtwebchannel.git&library_name=WebChannel#src/webchannel",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtwebchannel:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "WebChannel",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebchannel.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtwebchannel?library_name=WebChannelQuick#src/webchannelquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebchannel-WebChannelQuick?vcs_url=https://code.qt.io/qt/qtwebchannel.git&library_name=WebChannelQuick#src/webchannelquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtwebchannel:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "WebChannelQuick",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtwebchannel-qt-plugin-WebChannelQuickplugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtwebchannel.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtwebchannel?library_name=WebChannelQuickplugin#src/webchannelquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtwebchannel-WebChannelQuickplugin?vcs_url=https://code.qt.io/qt/qtwebchannel.git&library_name=WebChannelQuickplugin#src/webchannelquick",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtwebchannel:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "WebChannelQuickplugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "8a53126eab54ce654c2b24761c7009aaf6f41321"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebChannel.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "163b3de21cd5756d52063deb131a9dd273976a0b"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebChanneld.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "50daed5b31abf66f73d0d4b100f4969b9655aa55"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebChannel.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "604e0fc500ba73081e59e4b7be6a97a9864327b6"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebChanneld.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c5306389f1848c8faec27cb69260358a48101a95"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebChannelQuick.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9df210e142326af7bb7ac24110edf55abfedafec"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./bin/Qt6WebChannelQuickd.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ba136376b050443f7f5c22ccafd5420855d5caf5"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebChannelQuick.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6ca5205be0099d2398c0f77e52e98c60e8a9e12a"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/Qt6WebChannelQuickd.lib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-RelWithDebInfo",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "dc51fe3cd343e608febd37e41ce93ca95dc89c2d"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtWebChannel/webchannelquickplugin.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-Debug",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d44844854b44279c6757e9edd9f4af4d4ffc9810"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./qml/QtWebChannel/webchannelquickplugind.dll",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtwebchannel is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebchannel",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebchannel",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Qml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/RelWithDebInfo/WebChannel_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/include/QtWebChannel/qtwebchannelexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qmetaobjectpublisher.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qmetaobjectpublisher_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelabstracttransport.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelabstracttransport.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/signalhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/meta_types/qt6webchannel_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/.qt/rcc/qrc_resources.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/Debug/WebChannel_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/include/QtWebChannel/qtwebchannelexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qmetaobjectpublisher.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qmetaobjectpublisher_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelabstracttransport.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelabstracttransport.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/signalhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/meta_types/qt6webchannel_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/.qt/rcc/qrc_resources.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/RelWithDebInfo/WebChannel_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/include/QtWebChannel/qtwebchannelexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qmetaobjectpublisher.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qmetaobjectpublisher_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelabstracttransport.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelabstracttransport.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/signalhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/meta_types/qt6webchannel_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/.qt/rcc/qrc_resources.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/Debug/WebChannel_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/include/QtWebChannel/qtwebchannelexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qmetaobjectpublisher.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qmetaobjectpublisher_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannel_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelabstracttransport.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelabstracttransport.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/signalhandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/qwebchannelglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/meta_types/qt6webchannel_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannel-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannel/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannel/.qt/rcc/qrc_resources.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebchannel-qt-module-WebChannel",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/RelWithDebInfo/WebChannelQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/include/QtWebChannelQuick/qtwebchannelquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannelattached_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannelattached.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qwebchannelquickglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/meta_types/qt6webchannelquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/webchannelquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/.qt/rcc/qrc_qmake_QtWebChannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/Debug/WebChannelQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/include/QtWebChannelQuick/qtwebchannelquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannelattached_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannelattached.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qwebchannelquickglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/meta_types/qt6webchannelquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/webchannelquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/.qt/rcc/qrc_qmake_QtWebChannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/RelWithDebInfo/WebChannelQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/include/QtWebChannelQuick/qtwebchannelquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannelattached_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannelattached.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qwebchannelquickglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/meta_types/qt6webchannelquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/webchannelquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/.qt/rcc/qrc_qmake_QtWebChannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-module-WebChannelQuick",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/Debug/WebChannelQuick_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/include/QtWebChannelQuick/qtwebchannelquickexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannel.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannelattached_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qqmlwebchannelattached.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/qwebchannelquickglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/meta_types/qt6webchannelquick_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/webchannelquick_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-WebChannelQuick-ImportLibrary-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/.qt/rcc/qrc_qmake_QtWebChannel.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-plugin-WebChannelQuickplugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel",
+            "relatedSpdxElement": "SPDXRef-Package-qtwebchannel-qt-plugin-WebChannelQuickplugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-plugin-WebChannelQuickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-plugin-WebChannelQuickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-RelWithDebInfo",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/WebChannelQuickplugin_QtWebChannelPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-RelWithDebInfo",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/RelWithDebInfo/WebChannelQuickplugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-plugin-WebChannelQuickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtwebchannel-qt-plugin-WebChannelQuickplugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-Debug",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/WebChannelQuickplugin_QtWebChannelPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-WebChannelQuickplugin-Debug",
+            "comment": "C:/Users/qt/work/qt/qtwebchannel/src/webchannelquick/C:/Users/qt/work/qt/qtwebchannel_build/src/webchannelquick/Debug/WebChannelQuickplugin_resource.rc",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        }
+    ]
+}

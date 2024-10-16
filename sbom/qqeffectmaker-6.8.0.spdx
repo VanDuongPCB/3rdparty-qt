@@ -1,0 +1,151 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qqeffectmaker-6.8.0
+DocumentNamespace: https://qt.io/spdxdocs/qqeffectmaker-6.8.0
+Creator: Organization: TheQtCompany
+Creator: Tool: Qt Build System
+CreatorComment: <text>This SPDX document was created from CMake 3.27.7, using the qt
+build system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake</text>
+Created: 2024-10-02T16:35:49Z
+ExternalDocumentRef: DocumentRef-qtbase https://qt.io/spdxdocs/qtbase-6.8.0 SHA1: 213493d87d45d3d7f458102ff31588b943cce995;
+ExternalDocumentRef: DocumentRef-qtdeclarative https://qt.io/spdxdocs/qtdeclarative-6.8.0 SHA1: 46a6b0a462a24d68afa0ef592174bef8ccf3fc68;
+ExternalDocumentRef: DocumentRef-qtshadertools https://qt.io/spdxdocs/qtshadertools-6.8.0 SHA1: 985604ca46a84a24b57d5a20190b33c444baa8c5
+
+PackageName: MSVC
+SPDXID: SPDXRef-compiler
+PackageVersion: 19.39.33520.0
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageSupplier: Organization: Anonymous
+FilesAnalyzed: false
+PackageSummary: <text>The compiler as identified by CMake, running on Windows (AMD64)</text>
+PrimaryPackagePurpose: APPLICATION
+Relationship: SPDXRef-compiler BUILD_DEPENDENCY_OF SPDXRef-Package-qqeffectmaker
+RelationshipComment: <text>SPDXRef-Package-qqeffectmaker is built by compiler MSVC (C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/cl.exe) version 19.39.33520.0</text>
+
+PackageName: qqeffectmaker
+SPDXID: SPDXRef-Package-qqeffectmaker
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qqeffectmaker@6.8.0
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageDownloadLocation: git://code.qt.io/qt/qqeffectmaker.git
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: Copyright (C) 2024 The Qt Company Ltd.
+PackageHomePage: https://qt.io
+PackageComment: <text>Built by CMake 3.27.7 with RelWithDebInfo;Debug configuration for Windows (AMD64)</text>
+PackageVerificationCode: 6f0cd7eac682e1387503bf491a8ab1c835422e25
+BuiltDate: 2024-10-02T16:35:49Z
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-qqeffectmaker
+
+PackageName: qqem
+SPDXID: SPDXRef-Package-qqeffectmaker-qt-app-qqem
+PackageDownloadLocation: git://code.qt.io/qt/qqeffectmaker.git
+PackageVersion: 6.8.0
+PackageSupplier: Organization: TheQtCompany
+PackageLicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0
+PackageLicenseDeclared: LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0
+ExternalRef: PACKAGE-MANAGER purl pkg:github/qt/qqeffectmaker?library_name=qqem#tools/qqem
+ExternalRef: PACKAGE-MANAGER purl pkg:generic/TheQtCompany/qqeffectmaker-qqem?vcs_url=https://code.qt.io/qt/qqeffectmaker.git&library_name=qqem#tools/qqem
+FilesAnalyzed: true
+PackageCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+PrimaryPackagePurpose: APPLICATION
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qqeffectmaker:6.8.0:*:*:*:*:*:*:*
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*
+Relationship: SPDXRef-Package-qqeffectmaker-qt-app-qqem DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core
+Relationship: SPDXRef-Package-qqeffectmaker-qt-app-qqem DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui
+Relationship: SPDXRef-Package-qqeffectmaker-qt-app-qqem DEPENDS_ON DocumentRef-qtdeclarative:SPDXRef-Package-qtdeclarative-qt-module-Quick
+Relationship: SPDXRef-Package-qqeffectmaker-qt-app-qqem DEPENDS_ON DocumentRef-qtshadertools:SPDXRef-Package-qtshadertools-qt-module-ShaderTools
+Relationship: SPDXRef-Package-qqeffectmaker-qt-app-qqem DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformAppInternal
+Relationship: SPDXRef-Package-qqeffectmaker-qt-app-qqem DEPENDS_ON DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal
+Relationship: SPDXRef-Package-qqeffectmaker CONTAINS SPDXRef-Package-qqeffectmaker-qt-app-qqem
+
+FileName: ./bin/qqem.exe
+SPDXID: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo
+FileType: BINARY
+FileChecksum: SHA1: 5a7c17fa66c3ceb58e9ffcb8bf8aa4839dc876e9
+LicenseConcluded: LicenseRef-Qt-Commercial OR GPL-3.0-only WITH Qt-GPL-exception-1.0
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+LicenseInfoInFile: NOASSERTION
+Relationship: SPDXRef-Package-qqeffectmaker-qt-app-qqem CONTAINS SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/main.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/addnodemodel.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/addnodemodel.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/applicationsettings.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/applicationsettings.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/arrowsmodel.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/arrowsmodel.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/effectmanager.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/effectmanager.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/fpshelper.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/fpshelper.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/nodesmodel.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/nodesmodel.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/nodeview.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/nodeview.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/propertyhandler.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/propertyhandler.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/qsbinspectorhelper.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/qsbinspectorhelper.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/shaderfeatures.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/shaderfeatures.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/syntaxhighlighter.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/syntaxhighlighter.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/syntaxhighlighterdata.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/syntaxhighlighterdata.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/uniformmodel.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/uniformmodel.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/codehelper.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/codehelper.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/codecompletionmodel.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/codecompletionmodel.h
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/C:/Users/qt/work/qt/qtquickeffectmaker_build/tools/qqem/.qt/rcc/qrc_qml.cpp
+Relationship: SPDXRef-PackagedFile-qt-app-qqem-RelWithDebInfo GENERATED_FROM NOASSERTION
+RelationshipComment: C:/Users/qt/work/qt/qtquickeffectmaker/tools/qqem/C:/Users/qt/work/qt/qtquickeffectmaker_build/tools/qqem/RelWithDebInfo/qqem_resource.rc
+
+LicenseID: LicenseRef-Qt-Commercial
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>
